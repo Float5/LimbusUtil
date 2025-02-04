@@ -1,0 +1,268 @@
+
+
+
+
+.iis__main{
+    width: 60vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.iis__uptie{
+    width: fit-content;
+    transition: all 0.3s ease;
+
+    font-size: larger;
+    font-family: "Paperlogy-6";
+    color: var(--whitetext_color);
+
+    background-color: var(--frame_bg);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    outline: solid 1px var(--outline_color);
+
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.iis__uptie:hover{
+    background-color: var(--selected_bg);
+}
+
+
+.iis__tabs{
+    width: 100%;
+    height: fit-content;
+    gap: 200px;
+}
+
+
+
+.iis__skill__up, .iis__passive__up, .iis__keyword__up{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 0px 10px 0px 10px;
+    gap: 20px;
+}
+
+.iis__skill__under, .iis__passive__under, .iis__keyword__under{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 20px 10px 20px 10px;
+    gap: 20px;
+}
+
+
+.iis__skills, .iis__passives, .iis__keywords{
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.iis__skill, .iis__passive, .iis__keyword{
+    width: 100%;
+    height: fit-content;
+
+    background-color: var(--button_bg);
+    outline: 1px solid var(--outline_color);
+
+    border-radius: 10px;
+}
+
+.iis__skill__name, .iis__passive__name, .iis__keyword__name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--whitetext_color);
+    font-size: x-large;
+    font-family: "Paperlogy-6";
+
+    gap: 10px;
+}
+
+.iis__skill__sin, .iis__passive__sin{
+    width: 1.5vw;
+}
+
+.iis__skill__type{
+    width: 2vw;
+}
+
+
+.iis__skill__coin{
+    width: 1.5vw;
+}
+
+
+.iis__skill__weights{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.iis__skill__weightText{
+    width: fit-content;
+    color: var(--text_color);
+    font-size: larger;
+    font-family: "Paperlogy-6";
+}
+
+.iis__skill__weight{
+    width: 1vw;
+    height: 1vw;
+    background-color: var(--text_color);
+}
+
+
+.iis__skill__Lv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.iis__skill__LvText{
+    color: var(--text_color);
+    font-size: larger;
+    font-family: "Paperlogy-6";
+}
+
+.iis__skill__LvIcon__Icon{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.iis__skill__LvValue{
+    color: var(--whitetext_color);
+    font-size: larger;
+    font-family: "Paperlogy-6";
+}
+
+
+.iis__skill__Power{
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.iis__skill__skillPower{
+    gap: 5px;
+}
+
+.iis__skill__coinPower{
+    gap: 5px;
+}
+
+.iis__skill__skillPowerText{
+    color: var(--text_color);
+    font-size: larger;
+    font-family: "Paperlogy-6";
+}
+
+.iis__skill__coinPowerText{
+    color: var(--text_color);
+    font-size: larger;
+    font-family: "Paperlogy-6";
+}
+
+.iis__skill__skillPowerValue{
+    color: var(--whitetext_color);
+    font-size: larger;
+    font-family: "Paperlogy-6";
+}
+
+.iis__skill__coinPowerValue{
+    color: var(--whitetext_color);
+    font-size: larger;
+    font-family: "Paperlogy-6";
+}
+
+
+.iis__skill__desc, .iis__passive__desc, .iis__keyword__desc{
+    gap: 20px;
+}
+
+
+.iis__skill__desc__before, .iis__passive__desc__before, .iis__keyword__desc__before{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+.iis__skill__desc__after{
+    gap: 10px;
+}
+
+.iis__skill__desc__line, .iis__passive__desc__line, .iis__keyword__desc__line{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.iis__descText{
+    font-family: "Paperlogy-4";
+    font-size: medium;
+}
+
+.iis__descText__when{
+    color: var(--whentext_color);
+}
+
+.iis__descText__keyword{
+    color: var(--keywordtext_color);
+}
+
+.iis__descText__text{
+    color: var(--whitetext_color);
+}
+
+.iis__skill__desc__withCoin{
+    align-items: top;
+    justify-content: left;
+    gap: 5px;
+}
+
+.iis__skill__desc__coin{
+    width: 20px;
+    height: 20px;
+}
+
+.iis__skill__desc__afterText{
+    position: relative;
+    top: 2px;
+}
+
+.iis__keyword__img{
+    width: 2vw;
+}

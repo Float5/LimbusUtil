@@ -1,0 +1,126 @@
+{
+    "1": {
+        "sinnerNumber": 1,
+        "sinnerName": "이상",
+        "identityName": "LCB 수감자",
+        "identityDescription": "이상이오.",
+        "grade": 1,
+        "health": 100,
+        "speed": "0-0",
+        "defense": 50,
+        "resistances": {
+            "slash": "내성",
+            "penetration": "보통",
+            "blow": "취약"
+        },
+        "struggle": "%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 0,
+                    "coinPower": 0,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 0,
+                    "coinPower": 0,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 0,
+                    "coinPower": 0,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 0,
+                    "coinPower": 0,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "",
+                "sin": "none",
+                "type": "",
+                "count": 0,
+                "description": []
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "",
+                "sin": "none",
+                "type": "",
+                "count": 0,
+                "description": []
+            }
+        ],
+        "keywords": [
+            
+        ]
+    }
+}

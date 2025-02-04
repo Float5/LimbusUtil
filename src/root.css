@@ -1,0 +1,143 @@
+:root {
+    --background_bg: #3B3C3F;
+    --button_bg: #333333;
+    --frame_bg: #1F1F1F;
+    --selected_bg: #8A8D91;
+    --headandfoot_bg: #636669;
+
+    --outline_color: #8D0801;
+    --text_color: #FFD400;
+    --redtext_color: #8D0801;
+    --whitetext_color: #ffffff;
+    --whentext_color: #e76400;
+    --keywordtext_color: #7dee66;
+
+
+    --yisang_color: #d3e0e7;
+    --faust_color: #ffb1b4;
+    --donquixote_color: #ffef23;
+    --ryoshu_color: #cf0000;
+    --meursault_color: #293b95;
+    --honglu_color: #5bffde;
+    --heathcliff_color: #4e3076;
+    --ishmael_color: #ff9500;
+    --rodya_color: #820000;
+    --sinclair_color: #8b9c15;
+    --outis_color: #325339;
+    --gregor_color: #69350b;
+
+    --wrath_color: #8a3126;
+    --lust_color: #b36330;
+    --sloth_color: #e48900;
+    --glut_color: #61832a;
+    --gloom_color: #336670;
+    --pride_color: #195386;
+    --envy_color: #805194;
+}
+
+.이상-color{
+    color: var(--yisang_color);
+}
+.파우스트-color{
+    color: var(--faust_color);
+}
+.돈키호테-color{
+    color: var(--donquixote_color);
+}
+.료슈-color{
+    color: var(--ryoshu_color);
+}
+.뫼르소-color{
+    color: var(--meursault_color);
+}
+.홍루-color{
+    color: var(--honglu_color);
+}
+.히스클리프-color{
+    color: var(--heathcliff_color);
+}
+.이스마엘-color{
+    color: var(--ishmael_color);
+}
+.로쟈-color{
+    color: var(--rodya_color);
+}
+.싱클레어-color{
+    color: var(--sinclair_color);
+}
+.오티스-color{
+    color: var(--outis_color);
+}
+.그레고르-color{
+    color: var(--gregor_color);
+}
+
+
+.wrath-color{
+    color: var(--wrath_color);
+}
+.lust-color{
+    color: var(--lust_color);
+}
+.sloth-color{
+    color: var(--sloth_color);
+}
+.glut-color{
+    color: var(--glut_color);
+}
+.gloom-color{
+    color: var(--gloom_color);
+}
+.pride-color{
+    color: var(--pride_color);
+}
+.envy-color{
+    color: var(--envy_color);
+}
+
+
+@font-face {
+    font-family: "Paperlogy-1";
+    src: url(./fonts/Paperlogy-1Thin.ttf);
+}
+
+@font-face {
+    font-family: "Paperlogy-4";
+    src: url(./fonts/Paperlogy-4Regular.ttf);
+}
+
+@font-face {
+    font-family: "Paperlogy-6";
+    src: url(./fonts/Paperlogy-6SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Paperlogy-9";
+    src: url(./fonts/Paperlogy-9Black.ttf);
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    width: 60vw;
+    height: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    background-color: var(--background_bg);
+}
+
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}

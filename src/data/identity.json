@@ -1,0 +1,3955 @@
+{
+    "1": {
+        "sinnerNumber": 1,
+        "sinnerName": "이상",
+        "identityName": "LCB 수감자",
+        "identityDescription": "이상이라고 하오. 소개는 이상이오.",
+        "grade": 1,
+        "health": 196,
+        "speed": "4-8",
+        "defense": 48,
+        "resistances": {
+            "slash": "취약",
+            "penetration": "내성",
+            "blow": "보통"
+        },
+        "struggle": "65% 35% 15%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "쳐내기",
+                    "sin": "gloom",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 3,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <침잠> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "밀어찌르기",
+                    "sin": "envy",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+
+                            ],
+                            [
+                                "[적중시] <침잠> 1 부여, <침잠> 횟수 1 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "연격",
+                    "sin": "sloth",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 6,
+                    "coinPower": 1,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+
+                            ],
+                            [
+
+                            ],
+                            [
+                                "[적중시] 대상의 정신력이 0 미만 이면 다음 턴에 <취약> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 48,
+                    "skillPower": 7,
+                    "coinPower": 3,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "쳐내기",
+                    "sin": "gloom",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <침잠> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "밀어찌르기",
+                    "sin": "envy",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+
+                            ],
+                            [
+                                "[적중시] <침잠> 2 부여, <침잠> 횟수 1 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "연격",
+                    "sin": "sloth",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 6,
+                    "coinPower": 2,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 침잠 2 부여"
+                            ],
+                            [
+                                "[적중시] 침잠 1 부여"
+                            ],
+                            [
+                                "[적중시] 대상의 정신력이 0 미만 이면 다음 턴에 <취약> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "gloom",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 48,
+                    "skillPower": 7,
+                    "coinPower": 3,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "정보전달",
+                "sin": "gloom",
+                "type": "공명",
+                "count": 4,
+                "description": ["조작 패널에서 자신의 뒤에 있는 아군 2명에게 <피해량 증가> 1 부여"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "정보중화",
+                "sin": "gloom",
+                "type": "보유",
+                "count": 4,
+                "description": ["정신력이 가장 낮은 아군 1명 이번 턴에 정신력이 감소한 경우 턴 종료 시 정신력 10 회복"]
+            }
+        ],
+        "keywords": [
+            "침잠",
+            "취약",
+            "피해량 증가"
+        ]
+    },
+
+    
+
+    "2": {
+        "sinnerNumber": 2,
+        "sinnerName": "파우스트",
+        "identityName": "LCB 수감자",
+        "identityDescription": "파우스트예요. 당신이 인생에서 한 번 마주칠까 말까 하는 천재죠.",
+        "grade": 1,
+        "health": 229,
+        "speed": "2-4",
+        "defense": 51,
+        "resistances": {
+            "slash": "취약",
+            "penetration": "내성",
+            "blow": "보통"
+        },
+        "struggle": "60% 30% 15%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "내려베기",
+                    "sin": "pride",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 3,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <마비> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "올려베기",
+                    "sin": "sloth",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+
+                            ],
+                            [
+                                "[적중시] 다음 턴에 <공격 레벨 감소> 3 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "후벼찌르기",
+                    "sin": "glut",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 6,
+                    "coinPower": 2,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] 다음 턴에 <공격 위력 감소> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] 다음 턴에 <공격 위력 감소> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 51,
+                    "skillPower": 2,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "내려베기",
+                    "sin": "pride",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <마비> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "올려베기",
+                    "sin": "sloth",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 5,
+                    "coinPower": 4,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+
+                            ],
+                            [
+                                "[적중시] 다음 턴에 <공격 레벨 감소> 3 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "후벼찌르기",
+                    "sin": "glut",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 7,
+                    "coinPower": 2,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] 다음 턴에 <공격 위력 감소> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] 다음 턴에 <공격 위력 감소> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "gloom",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 51,
+                    "skillPower": 2,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "분석",
+                "sin": "pride",
+                "type": "공명",
+                "count": 2,
+                "description": ["부정적인 효과가 걸려있는 대상에게 가하는 피해량 +10%"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "관찰",
+                "sin": "pride",
+                "type": "보유",
+                "count": 3,
+                "description": ["최대 체력이 가장 높은 아군 1명 공격 적중 시 25% 확률로 <공격 레벨 감소> 2 부여"]
+            }
+        ],
+        "keywords": [
+            "마비",
+            "공격 레벨 감소",
+            "공격 위력 감소"
+        ]
+    },
+
+
+
+    "3": {
+        "sinnerNumber": 3,
+        "sinnerName": "돈키호테",
+        "identityName": "LCB 수감자",
+        "identityDescription": "이 몸의 차례인가? 나는, 돈키호테일세!",
+        "grade": 1,
+        "health": 180,
+        "speed": "3-6",
+        "defense": 48,
+        "resistances": {
+            "slash": "보통",
+            "penetration": "내성",
+            "blow": "취약"
+        },
+        "struggle": "70% 40% 20%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "찌르기",
+                    "sin": "lust",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 3,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[합 승리시] 다음 턴에 <신속> 2 얻음"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "모아 찌르기",
+                    "sin": "envy",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 4,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[합 승리시] 다음 턴에 <공격 위력 증가> 2 얻음"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "정의를 위해!",
+                    "sin": "glut",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 3,
+                    "coinPower": 3,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "속도가 10 이상일 때 코인 위력 +2"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 48,
+                    "skillPower": 2,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "찌르기",
+                    "sin": "lust",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[합 승리시] 다음 턴에 <신속> 2 얻음"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "모아 찌르기",
+                    "sin": "envy",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 4,
+                    "coinPower": 12,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[합 승리시] 다음 턴에 <공격 위력 증가> 2 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <출혈> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "정의를 위해!",
+                    "sin": "glut",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 3,
+                    "coinPower": 3,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "속도가 10 이상일 때 코인 위력 +2"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[적중시] <출혈> 횟수 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "lust",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 48,
+                    "skillPower": 2,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "정의의 응징",
+                "sin": "lust",
+                "type": "공명",
+                "count": 3,
+                "description": ["합 승리 시 해당 스킬의 피해량 +10%"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "응원",
+                "sin": "lust",
+                "type": "보유",
+                "count": 5,
+                "description": ["정신력이 가장 높은 아군 1명 관통 스킬의 피해량 +10%"]
+            }
+        ],
+        "keywords": [
+            "신속",
+            "공격 위력 증가",
+            "출혈"
+        ]
+    },
+
+
+
+    "4": {
+        "sinnerNumber": 4,
+        "sinnerName": "료슈",
+        "identityName": "LCB 수감자",
+        "identityDescription": "료슈. 요료슈쿠… 푸훗.",
+        "grade": 1,
+        "health": 180,
+        "speed": "3-6",
+        "defense": 46,
+        "resistances": {
+            "slash": "내성",
+            "penetration": "보통",
+            "blow": "취약"
+        },
+        "struggle": "70% 40% 20%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "칠하기",
+                    "sin": "glut",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 3,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 다음 턴에 <호흡> 2 얻음"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "흩뿌리기",
+                    "sin": "lust",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "대상이 이번 턴에 피해를 받은 상태면 피해량 +30%"
+                            ],
+                            [
+                                "대상이 이번 턴에 피해를 받은 상태면 피해량 +30%"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "그려내기",
+                    "sin": "pride",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 5,
+                    "coinPower": 2,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[전투 시작시] <참격 피해량 증가> 2를 얻음"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 48,
+                    "skillPower": 2,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "칠하기",
+                    "sin": "glut",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 다음 턴에 <호흡> 2 얻음"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "흩뿌리기",
+                    "sin": "lust",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 4,
+                    "coinPower": 5,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "대상이 이번 턴에 피해를 받은 상태면 피해량 +30%"
+                            ],
+                            [
+                                "대상이 이번 턴에 피해를 받은 상태면 피해량 +30%"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "그려내기",
+                    "sin": "pride",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 5,
+                    "coinPower": 3,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[전투 시작시] <참격 피해량 증가> 2를 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+
+                            ],
+                            [
+                                "[적중시] 다음 턴에 <호흡> 2 얻음"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "glut",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 48,
+                    "skillPower": 2,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "무차별적 예술",
+                "sin": "glut",
+                "type": "공명",
+                "count": 3,
+                "description": ["자신이 받는 피해량 +25%, 가하는 피해량 +25%"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "등떠밀기",
+                "sin": "glut",
+                "type": "공명",
+                "count": 3,
+                "description": ["최대 체력이 가장 낮은 아군 1명 가하는 피해량 +20%, 받는 피해량 +20%"]
+            }
+        ],
+        "keywords": [
+            "호흡",
+            "참격 피해량 증가"
+        ]
+    },
+
+
+
+
+    "5": {
+        "sinnerNumber": 5,
+        "sinnerName": "뫼르소",
+        "identityName": "LCB 수감자",
+        "identityDescription": "뫼르소. 그렇게 불러주시겠습니까, 관리자님.",
+        "grade": 1,
+        "health": 245,
+        "speed": "2-3",
+        "defense": 53,
+        "resistances": {
+            "slash": "보통",
+            "penetration": "취약",
+            "blow": "내성"
+        },
+        "struggle": "50% 20%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "원, 투",
+                    "sin": "sloth",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 47,
+                    "skillPower": 2,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <진동> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <진동> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "주먹꽂기",
+                    "sin": "pride",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 47,
+                    "skillPower": 5,
+                    "coinPower": 9,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 다음 턴에 <수비 위력 증가> 3 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <진동 폭발>"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "연격",
+                    "sin": "gloom",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 47,
+                    "skillPower": 4,
+                    "coinPower": 1,
+                    "coins": [true,true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 다음 턴에 <보호> 3 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+
+                            ],
+                            [
+
+                            ],
+                            [
+                                
+                            ],
+                            [
+                                "[앞면 적중시] <진동> 횟수 2 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 8,
+                    "coinPower": 3,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "원, 투",
+                    "sin": "sloth",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 47,
+                    "skillPower": 3,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <진동> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <진동> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "주먹꽂기",
+                    "sin": "pride",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 47,
+                    "skillPower": 6,
+                    "coinPower": 9,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 다음 턴에 <수비 위력 증가> 3 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <진동 폭발>"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "연격",
+                    "sin": "gloom",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 47,
+                    "skillPower": 4,
+                    "coinPower": 2,
+                    "coins": [true,true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 다음 턴에 <보호> 3 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <진동> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <진동> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <진동> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <진동> 횟수 2 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "sloth",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 10,
+                    "coinPower": 3,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "각오",
+                "sin": "sloth",
+                "type": "보유",
+                "count": 2,
+                "description": ["전투 시작 시 자신의 체력이 50% 미만이면 <보호> 1 얻음"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "등뒤 받쳐주기",
+                "sin": "sloth",
+                "type": "보유",
+                "count": 3,
+                "description": ["최대 체력이 가장 높은 아군 1명 공격 스킬로 받는 피해량 -10%"]
+            }
+        ],
+        "keywords": [
+            "진동",
+            "진동 폭발",
+            "수비 위력 증가",
+            "보호"
+        ]
+    },
+
+
+
+    "6": {
+        "sinnerNumber": 6,
+        "sinnerName": "홍루",
+        "identityName": "LCB 수감자",
+        "identityDescription": "홍루라고 한답니다. 잘해보자구요, 우리.",
+        "grade": 1,
+        "health": 180,
+        "speed": "3-6",
+        "defense": 48,
+        "resistances": {
+            "slash": "취약",
+            "penetration": "보통",
+            "blow": "내성"
+        },
+        "struggle": "70% 40% 20%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "내려베기",
+                    "sin": "pride",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 3,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <침잠> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "이연격",
+                    "sin": "sloth",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "이전 턴에 피해를 입지 않았다면 코인 위력 +1"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <침잠> 1 부여"
+                            ],
+                            [
+                                "[적중시] <파열> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "선풍",
+                    "sin": "lust",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 5,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "이전 턴에 피해를 입지 않았다면 코인 위력 +2"
+                        ],
+                        "afterAttack": [
+                            [
+                                
+                            ],
+                            [
+                                "[앞면 적중시] <공격 위력 감소> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 48,
+                    "skillPower": 2,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "내려베기",
+                    "sin": "pride",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <침잠> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "이연격",
+                    "sin": "sloth",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "이전 턴에 피해를 입지 않았다면 코인 위력 +1"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <침잠> 2 부여"
+                            ],
+                            [
+                                "[적중시] <파열> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "선풍",
+                    "sin": "lust",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 6,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "이전 턴에 피해를 입지 않았다면 코인 위력 +2"
+                        ],
+                        "afterAttack": [
+                            [
+                                
+                            ],
+                            [
+                                "[앞면 적중시] <공격 위력 감소> 2 부여",
+                                "[적중시] <침잠> 2 부여",
+                                "[적중시] <파열> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "sloth",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 48,
+                    "skillPower": 2,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "유희",
+                "sin": "sloth",
+                "type": "공명",
+                "count": 2,
+                "description": ["다음 턴 시작 시 정신력 6 회복"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "실없는 농담",
+                "sin": "sloth",
+                "type": "보유",
+                "count": 5,
+                "description": ["정신력이 가장 낮은 아군 1명 전투 시작 시 정신력 6 회복"]
+            }
+        ],
+        "keywords": [
+            "침잠",
+            "파열",
+            "공격 위력 감소"
+        ]
+    },
+
+
+
+
+    "7": {
+        "sinnerNumber": 7,
+        "sinnerName": "히스클리프",
+        "identityName": "LCB 수감자",
+        "identityDescription": "히스클리프. 사람 박살 내는 건 내 전문이지. 물론, 내가 내킬 때만.",
+        "grade": 1,
+        "health": 213,
+        "speed": "2-5",
+        "defense": 50,
+        "resistances": {
+            "slash": "취약",
+            "penetration": "보통",
+            "blow": "내성"
+        },
+        "struggle": "65% 35% 15%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "배트 치기",
+                    "sin": "envy",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 3,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <진동> 3 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "내려박기",
+                    "sin": "wrath",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 다음 턴에 <공격 위력 증가>, <피해량 증가> 1 얻음"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "분풀기",
+                    "sin": "lust",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 6,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] 다음 코인 위력 +2"
+                            ],
+                            [
+                                "[적중시] <진동 폭발>"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "COUNTER",
+                    "skillName": "반격",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 7,
+                    "coinPower": 4,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "배트 치기",
+                    "sin": "envy",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <진동> 3 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "내려박기",
+                    "sin": "wrath",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 다음 턴에 <공격 위력 증가>, <피해량 증가> 1 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <진동> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "분풀기",
+                    "sin": "lust",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 8,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] 다음 코인 위력 +2"
+                            ],
+                            [
+                                "[적중시] <진동 폭발>"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "COUNTER",
+                    "skillName": "반격",
+                    "sin": "envy",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 7,
+                    "coinPower": 4,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "르쌍티망",
+                "sin": "envy",
+                "type": "공명",
+                "count": 4,
+                "description": ["대상이 자신보다 최대 체력이 높으면 피해량 +10%"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "악에 받친",
+                "sin": "envy",
+                "type": "보유",
+                "count": 5,
+                "description": ["최대 체력이 가장 낮은 아군 1명 타격 스킬의 피해량 +10%"]
+            }
+        ],
+        "keywords": [
+            "진동",
+            "진동 폭발",
+            "공격 위력 증가",
+            "피해량 증가"
+        ]
+    },
+
+
+
+    "8": {
+        "sinnerNumber": 8,
+        "sinnerName": "이스마엘",
+        "identityName": "LCB 수감자",
+        "identityDescription": "저를, 이스마엘이라고 불러주세요.",
+        "grade": 1,
+        "health": 213,
+        "speed": "5-8",
+        "defense": 50,
+        "resistances": {
+            "slash": "취약",
+            "penetration": "보통",
+            "blow": "내성"
+        },
+        "struggle": "60% 30%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "강타",
+                    "sin": "wrath",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 3,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <진동> 횟수 1 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "슬라이딩",
+                    "sin": "glut",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 5,
+                    "coinPower": 8,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[합 승리 시] <수비 위력 감소> 3 부여"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "방어",
+                    "sin": "gloom",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 7,
+                    "coinPower": 12,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <진동 폭발>. <타격 취약> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 7,
+                    "coinPower": 3,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "강타",
+                    "sin": "wrath",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <진동> 횟수 1 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "슬라이딩",
+                    "sin": "glut",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 6,
+                    "coinPower": 9,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[합 승리 시] <수비 위력 감소> 3 부여"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <진동> 3 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "방어",
+                    "sin": "gloom",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 8,
+                    "coinPower": 12,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <진동 폭발>. <타격 취약> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "wrath",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 7,
+                    "coinPower": 3,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "발악",
+                "sin": "wrath",
+                "type": "보유",
+                "count": 3,
+                "description": ["합 진행 시 자신의 체력이 25% 미만이면 합 위력 +1"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "살아남고 말것이라는 마음",
+                "sin": "wrath",
+                "type": "보유",
+                "count": 6,
+                "description": ["현재 체력이 가장 낮은 아군 1명 체력이 50% 미만이면 합 진행 시 합 위력 +1"]
+            }
+        ],
+        "keywords": [
+            "진동",
+            "진동 폭발",
+            "수비 위력 감소",
+            "타격 취약"
+        ]
+    },
+
+
+
+    "9": {
+        "sinnerNumber": 9,
+        "sinnerName": "로쟈",
+        "identityName": "LCB 수감자",
+        "identityDescription": "안녕~ 로쟈야. 긴 이름도 있는데, 정 없어 보이니까 그냥 로쟈라고 불러줘~",
+        "grade": 1,
+        "health": 213,
+        "speed": "2-5",
+        "defense": 50,
+        "resistances": {
+            "slash": "내성",
+            "penetration": "취약",
+            "blow": "보통"
+        },
+        "struggle": "65% 35% 15%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "내려찍기",
+                    "sin": "glut",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 3,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <출혈> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "연속 베기",
+                    "sin": "pride",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <출혈> 2 부여"
+                            ],
+                            [
+                                "[적중시] <출혈> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "처단",
+                    "sin": "wrath",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 3,
+                    "coinPower": 2,
+                    "coins": [true,true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "자신의 정신력이 0 미만이면 스킬 위력 +1"
+                        ],
+                        "afterAttack": [
+                            [
+                                
+                            ],
+                            [
+                                
+                            ],
+                            [
+                                
+                            ],
+                            [
+                                "[적중시] 대상의 <출혈>이 6 이상일 때 피해량 +20%"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "COUNTER",
+                    "skillName": "반격",
+                    "sin": "wrath",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 7,
+                    "coinPower": 4,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "내려찍기",
+                    "sin": "glut",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <출혈> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "연속 베기",
+                    "sin": "pride",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <출혈> 2 부여"
+                            ],
+                            [
+                                "[적중시] <출혈> 2 부여",
+                                "[앞면 적중시] <출혈> 횟수 1 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "처단",
+                    "sin": "wrath",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 2,
+                    "coins": [true,true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "자신의 정신력이 0 미만이면 스킬 위력 +1"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[적중시] 대상의 <출혈>이 6 이상일 때 피해량 +20%"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "COUNTER",
+                    "skillName": "반격",
+                    "sin": "wrath",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 7,
+                    "coinPower": 4,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "단악",
+                "sin": "wrath",
+                "type": "보유",
+                "count": 5,
+                "description": ["공격 적중 시 50% 확률로 <출혈> 1 부여"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "도박사",
+                "sin": "wrath",
+                "type": "보유",
+                "count": 5,
+                "description": ["현재 체력이 가장 높은 아군 1명 앞면이 나온 코인의 피해량 +20%"]
+            }
+        ],
+        "keywords": [
+            "출혈"
+        ]
+    },
+
+
+
+    "11": {
+        "sinnerNumber": 11,
+        "sinnerName": "싱클레어",
+        "identityName": "LCB 수감자",
+        "identityDescription": "싱클레어예요… 에밀, 싱클레어. 아, 번호는 음… 11번.",
+        "grade": 1,
+        "health": 167,
+        "speed": "3-7",
+        "defense": 46,
+        "resistances": {
+            "slash": "내성",
+            "penetration": "취약",
+            "blow": "보통"
+        },
+        "struggle": "70% 40% 20%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "내려베기",
+                    "sin": "pride",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 3,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <파열> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "연속 베기",
+                    "sin": "wrath",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 2,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[합 승리시] 피해량 +30%"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "헤집어 베기",
+                    "sin": "envy",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 5,
+                    "coinPower": 2,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[합 승리시] <공격 위력 증가> 1 얻음"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "COUNTER",
+                    "skillName": "반격",
+                    "sin": "pride",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 7,
+                    "coinPower": 4,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "내려베기",
+                    "sin": "pride",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <파열> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "연속 베기",
+                    "sin": "wrath",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 2,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[합 승리시] 피해량 +30%"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "헤집어 베기",
+                    "sin": "envy",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 5,
+                    "coinPower": 3,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[합 승리시] <공격 위력 증가> 1 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <파열> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <파열> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <파열> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "COUNTER",
+                    "skillName": "반격",
+                    "sin": "pride",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 7,
+                    "coinPower": 4,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "각오",
+                "sin": "pride",
+                "type": "보유",
+                "count": 3,
+                "description": ["이번 턴에 아군이 사망하면 다음 턴에 <공격 위력 증가> 1을 얻음"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "양심",
+                "sin": "pride",
+                "type": "보유",
+                "count": 3,
+                "description": ["정신력이 가장 낮은 아군 1명 다른 아군이 사망하면 다음 턴에 <공격 위력 증가> 1 얻음"]
+            }
+        ],
+        "keywords": [
+            "파열",
+            "공격 위력 증가"
+        ]
+    },
+
+
+
+    "12": {
+        "sinnerNumber": 12,
+        "sinnerName": "오티스",
+        "identityName": "LCB 수감자",
+        "identityDescription": "오티스입니다. 제 이름을 기억해주십시오. 관리자님.",
+        "grade": 1,
+        "health": 164,
+        "speed": "3-7",
+        "defense": 46,
+        "resistances": {
+            "slash": "내성",
+            "penetration": "보통",
+            "blow": "취약"
+        },
+        "struggle": "70% 40% 20%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "칼날 빼기",
+                    "sin": "sloth",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 3,
+                    "coinPower": 2,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+
+                            ],
+                            [
+                                "[적중시] <파열> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "배후 베기",
+                    "sin": "pride",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 5,
+                    "coinPower": 3,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "대상보다 속도가 빠르면 피해량 +20%"
+                            ],
+                            [
+                                "대상보다 속도가 빠르면 피해량 +20%"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "뚫어내기",
+                    "sin": "gloom",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 6,
+                    "coinPower": 14,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "대상의 체력이 50% 이상일 때 피해량 +20%"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 47,
+                    "skillPower": 2,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "칼날 빼기",
+                    "sin": "sloth",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 3,
+                    "coinPower": 2,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+
+                            ],
+                            [
+                                "[적중시] <파열> 2 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <파열> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "배후 베기",
+                    "sin": "pride",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 5,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "대상보다 속도가 빠르면 피해량 +20%"
+                            ],
+                            [
+                                "대상보다 속도가 빠르면 피해량 +20%"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "뚫어내기",
+                    "sin": "gloom",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 7,
+                    "coinPower": 14,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "대상의 체력이 50% 이상일 때 피해량 +20%"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <파열> 횟수 1 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "sloth",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 47,
+                    "skillPower": 2,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "처형",
+                "sin": "sloth",
+                "type": "보유",
+                "count": 4,
+                "description": ["대상의 정신력이 0 미만일 때 피해량 +10%"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "군인정신",
+                "sin": "sloth",
+                "type": "보유",
+                "count": 5,
+                "description": ["현재 체력이 가장 높은 아군 1명 전신력이 0 미만인 적 공격 시 피해량 +30%"]
+            }
+        ],
+        "keywords": [
+            "파열"
+        ]
+    },
+
+
+
+    "13": {
+        "sinnerNumber": 13,
+        "sinnerName": "그레고르",
+        "identityName": "LCB 수감자",
+        "identityDescription": "음… 그레고르다. 뭐, 자고 있을 때 빼고는 편하게 부르라고.",
+        "grade": 1,
+        "health": 196,
+        "speed": "3-7",
+        "defense": 50,
+        "resistances": {
+            "slash": "보통",
+            "penetration": "내성",
+            "blow": "취약"
+        },
+        "struggle": "70% 30%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "베기",
+                    "sin": "gloom",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 3,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <파열> 4 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "후비기",
+                    "sin": "glut",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 4,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <관통 취약> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "썰어내기",
+                    "sin": "sloth",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 5,
+                    "coinPower": 4,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 대상에게 <파열이> 있을 때 피해량 +10%"
+                            ],
+                            [
+                                "[적중시] 대상에게 <파열이> 있을 때 피해량 +10%",
+                                "[앞면 적중시] 피해량의 30%만큼 체력 회복"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 8,
+                    "coinPower": 2,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "베기",
+                    "sin": "gloom",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <파열> 4 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "후비기",
+                    "sin": "glut",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 5,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[적중시] <파열> 횟수 1 증가"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <관통 취약> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "썰어내기",
+                    "sin": "sloth",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 6,
+                    "coinPower": 4,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 대상에게 <파열이> 있을 때 피해량 +10%"
+                            ],
+                            [
+                                "[적중시] 대상에게 <파열이> 있을 때 피해량 +10%",
+                                "[앞면 적중시] 피해량의 30%만큼 체력 회복"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "gloom",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 8,
+                    "coinPower": 3,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "강제생존",
+                "sin": "gloom",
+                "type": "보유",
+                "count": 3,
+                "description": ["전투 시작 자신의 체력 5 회복"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "인자 코드 G-0",
+                "sin": "gloom",
+                "type": "보유",
+                "count": 3,
+                "description": ["현재 체력이 가장 낮은 아군 1명 전투 시작 시 체력 5 회복"]
+            }
+        ],
+        "keywords": [
+            "파열",
+            "관통 취약"
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    "102": {
+        "sinnerNumber": 3,
+        "sinnerName": "돈키호테",
+        "identityName": "남부 시 협회 5과 부장",
+        "identityDescription": "자, 정의가 찾아왔소! 악인들을 평등한 죽음으로 이끄리라!",
+        "grade": 2,
+        "health": 189,
+        "speed": "3-6",
+        "defense": 46,
+        "resistances": {
+            "slash": "내성",
+            "penetration": "취약",
+            "blow": "보통"
+        },
+        "struggle": "80% 60%",
+        "season": 1,
+        "belong": "시 협회",
+        "release": "2023-02-27",
+        "way": "추출(상시) / 파편 150 교환(상시)",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "숨고르기",
+                    "sin": "wrath",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 6,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 다음 턴에 <호흡> 2 얻음"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "이격",
+                    "sin": "envy",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 6,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 자신의 체력이 최대 체력의 50% 미만일 때 다음 턴에 <신속> 2 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 다음 턴에 <호흡> 1 얻음"
+                            ],
+                            [
+                                "[적중시] 다음 턴에 <신속> 2 얻음"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "과호흡",
+                    "sin": "lust",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 21,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "속도가 10 이상이면, 스킬 위력 +5"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "wrath",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 3,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "숨고르기",
+                    "sin": "wrath",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 다음 턴에 <신속> 2 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 다음 턴에 <호흡> 3 얻음"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "이격",
+                    "sin": "envy",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 6,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 자신의 체력이 최대 체력의 50% 미만일 때 다음 턴에 <신속> 4 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 다음 턴에 <호흡> 2 얻음"
+                            ],
+                            [
+                                "[적중시] 다음 턴에 <신속> 3 얻음"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "과호흡",
+                    "sin": "lust",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 21,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "속도가 10 이상이면, 스킬 위력 +5"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "wrath",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 3,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "마음가짐",
+                "sin": "wrath",
+                "type": "공명",
+                "count": 3,
+                "description": ["다음 턴에 <신속>을 (분노 공명 수/3)만큼 얻음"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "양단",
+                "sin": "wrath",
+                "type": "보유",
+                "count": 5,
+                "description": ["속도가 가장 높은 아군 1명 참격 스킬의 피해량 +10%"]
+            }
+        ],
+        "keywords": [
+            "신속",
+            "호흡"
+        ]
+    },
+    "103": {
+        "sinnerNumber": 3,
+        "sinnerName": "돈키호테",
+        "identityName": "W사 3등급 정리 요원",
+        "identityDescription": "승객 여러분 안녕하시오!!! 내. 가. 도착하였네!!!",
+        "grade": 3,
+        "health": 199,
+        "speed": "3-6",
+        "defense": 49,
+        "resistances": {
+            "slash": "보통",
+            "penetration": "내성",
+            "blow": "취약"
+        },
+        "struggle": "70% 40% 20%",
+        "season": 1,
+        "belong": "W사",
+        "release": "2023-02-27",
+        "way": "추출 / 파편 400 교환(상시)",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "절단",
+                    "sin": "sloth",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 5,
+                    "coinPower": 6,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <파열> 1 부여",
+                                "[앞면 적중시] 자신의 <충전> 횟수 2 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "도약",
+                    "sin": "gloom",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 자신의 <충전> 횟수 4 증가"
+                            ],
+                            [
+                                "[적중시] 자신의 <충전> 횟수 4 증가"
+                            ],
+                            [
+                                "[앞면 적중시] <취약> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "공간절단",
+                    "sin": "envy",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 1,
+                    "coinPower": 2,
+                    "coins": [true,true,true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] <충전> 횟수 10을 소모하여 코인 위력 +4",
+                            "<충전> 횟수가 10 미만인 경우 체력 20% 감소"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "절단",
+                    "sin": "sloth",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 5,
+                    "coinPower": 6,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "<충전> 횟수가 5 이상이면, 코인 위력 +2"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <파열> 1 부여",
+                                "[앞면 적중시] 자신의 <충전> 횟수 4 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "도약",
+                    "sin": "gloom",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 4,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "<충전> 횟수가 7 이상이면, 코인 위력 +1"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 자신의 <충전> 횟수 4 증가"
+                            ],
+                            [
+                                "[적중시] 자신의 <충전> 횟수 4 증가"
+                            ],
+                            [
+                                "[앞면 적중시] <취약> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "공간절단",
+                    "sin": "envy",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 1,
+                    "coinPower": 2,
+                    "coins": [true,true,true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] <충전> 횟수 10을 소모하여 코인 위력 +4",
+                            "<충전> 횟수가 10 미만인 경우 체력 20% 감소"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "회피",
+                    "sin": "gloom",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "급속충전",
+                "sin": "gloom",
+                "type": "공명",
+                "count": 3,
+                "description": ["전투 시작 시 이번 턴에 <충전> 횟수 (우울 공명 수/3)만큼 증가"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "꺾인 마음",
+                "sin": "gloom",
+                "type": "공명",
+                "count": 3,
+                "description": ["속도가 가장 높은 아군 1명 첫 번째 스킬의 최종 위력 +1"]
+            }
+        ],
+        "keywords": [
+            "충전",
+            "파열",
+            "취약"
+        ]
+    },
+    "104": {
+        "sinnerNumber": 3,
+        "sinnerName": "돈키호테",
+        "identityName": "N사 중간 망치",
+        "identityDescription": "악을 정화하는 정의의 망치. 본인을 필요로 하는가? 후후후…",
+        "grade": 2,
+        "health": 223,
+        "speed": "2-5",
+        "defense": 51,
+        "resistances": {
+            "slash": "내성",
+            "penetration": "보통",
+            "blow": "취약"
+        },
+        "struggle": "70% 40% 20%",
+        "season": 1,
+        "belong": "N사",
+        "release": "2023-05-04",
+        "way": "추출 / 파편 150 교환(시즌 1 / 시즌 3 이후)",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "올곧은 정화",
+                    "sin": "lust",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 51,
+                    "skillPower": 3,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <못> 1 부여",
+                                "[적중시] <진동> 1 부여"
+                            ],
+                            [
+                                "[적중시] <진동> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "집행!",
+                    "sin": "glut",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 51,
+                    "skillPower": 4,
+                    "coinPower": 12,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <진동 폭발>",
+                                "대상에게 <못>이 5 이상 있으면, 피해량 +20%"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "광적인 심판",
+                    "sin": "wrath",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 51,
+                    "skillPower": 4,
+                    "coinPower": 3,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <못> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <못> 1 부여",
+                                "[적중시] <진동> 횟수 1 증가"
+                            ],
+                            [
+                                "[앞면 적중시] 대상에게 <못>이 5 이상 있으면, 다음 턴에 <공격 위력 감소> 1 부여",
+                                "[앞면 적중시] 대상에게 <못>이 5 이상 있으면, 다음 턴에 <마비> 2 부여",
+                                "[적중시] <진동> 횟수 1 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 10,
+                    "coinPower": 5,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "올곧은 정화",
+                    "sin": "lust",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 51,
+                    "skillPower": 3,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <못> 2 부여",
+                                "[적중시] <진동> 1 부여"
+                            ],
+                            [
+                                "[적중시] <진동> 2 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "집행!",
+                    "sin": "glut",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 51,
+                    "skillPower": 4,
+                    "coinPower": 12,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <진동 폭발>",
+                                "대상에게 <못>이 5 이상 있으면, 피해량 +30%"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "광적인 심판",
+                    "sin": "wrath",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 51,
+                    "skillPower": 5,
+                    "coinPower": 3,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <못> 2 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <못> 2 부여",
+                                "[적중시] <진동> 횟수 1 증가"
+                            ],
+                            [
+                                "[앞면 적중시] 대상에게 <못>이 5 이상 있으면, 다음 턴에 <공격 위력 감소> 1 부여",
+                                "[앞면 적중시] 대상에게 <못>이 5 이상 있으면, 다음 턴에 <마비> 2 부여",
+                                "[적중시] <진동> 횟수 1 증가"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "lust",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 10,
+                    "coinPower": 5,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "두드릴지다!",
+                "sin": "lust",
+                "type": "보유",
+                "count": 3,
+                "description": ["<못>이 있는 대상에게 부여하는 <진동> 횟수 +1. 자신에게 <광신>이 있으면 부여하는 <못> +1"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "맹목의 망치",
+                "sin": "lust",
+                "type": "보유",
+                "count": 4,
+                "description": ["<광신>이 있는 아군 중 가장 정신력이 낮은 아군의 피해량 +10%"]
+            }
+        ],
+        "keywords": [
+            "못",
+            "광신",
+            "진동",
+            "진동 폭발",
+            "공격 위력 감소",
+            "마비"
+        ]
+    },
+    "105": {
+        "sinnerNumber": 3,
+        "sinnerName": "돈키호테",
+        "identityName": "남부 섕크 협회 5과 부장 ",
+        "identityDescription": "자아! 그대가 나와 결투할 자인가?",
+        "grade": 3,
+        "health": 186,
+        "speed": "4-7",
+        "defense": 48,
+        "resistances": {
+            "slash": "취약",
+            "penetration": "내성",
+            "blow": "보통"
+        },
+        "struggle": "70% 40% 20%",
+        "season": 2,
+        "belong": "섕크 협회",
+        "release": "2023-07-20",
+        "way": "추출 / 파편 400 교환(상시)",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "르미즈",
+                    "sin": "lust",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 54,
+                    "skillPower": 4,
+                    "coinPower": 3,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "자신의 속도가 7 이상이면, 코인 위력 +1",
+                            "[합 승리시] 다음 턴에 <신속> 1을 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                
+                            ],
+                            [
+                                "[합 승리 후 앞면 적중] 다음 턴에 <속박> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "플레쉬",
+                    "sin": "gloom",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 54,
+                    "skillPower": 5,
+                    "coinPower": 5,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 다음 턴에 <신속> 2를 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                
+                            ],
+                            [
+                                "[앞면 적중시] 다음 턴에 <속박> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "살뤼!",
+                    "sin": "pride",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 54,
+                    "skillPower": 6,
+                    "coinPower": 6,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "자신의 속도가 10 이상이면, 코인 위력 +2",
+                            "[합 승리시] 합 횟수에 비례하여 피해량 증가 (합 횟수 1당 +5%, 최대 50%)"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <결투 선포> 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "데팡시브",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[회피 성공시] 대상의 정신력 3 감소"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "르미즈",
+                    "sin": "lust",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 54,
+                    "skillPower": 4,
+                    "coinPower": 3,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "자신의 속도가 7 이상이면, 코인 위력 +2",
+                            "[합 승리시] 다음 턴에 <신속> 1을 얻음"
+                        ],
+                        "afterAttack": [
+                            [
+                                
+                            ],
+                            [
+                                "[합 승리 후 적중] 다음 턴에 <속박> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "플레쉬",
+                    "sin": "gloom",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 54,
+                    "skillPower": 5,
+                    "coinPower": 5,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 다음 턴에 <신속> 2를 얻음",
+                            "[합 승리시] 합 횟수에 비례하여 피해량 증가 (합 횟수 1당 +5%, 최대 50%)"
+                        ],
+                        "afterAttack": [
+                            [
+                                
+                            ],
+                            [
+                                "[적중시] 다음 턴에 <속박> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "살뤼!",
+                    "sin": "pride",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 54,
+                    "skillPower": 6,
+                    "coinPower": 6,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "자신의 속도가 10 이상이면, 코인 위력 +3",
+                            "[합 승리시] 합 횟수에 비례하여 피해량 증가 (합 횟수 1당 +10%, 최대 100%)"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <결투 선포> 부여"
+                            ],
+                            [
+                                "[적 처치시] 자신의 정신력 15 회복"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "EVADE",
+                    "skillName": "데팡시브",
+                    "sin": "pride",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 4,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[회피 성공시] 대상의 정신력 3 감소"
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "고귀한 결투",
+                "sin": "pride",
+                "type": "공명",
+                "count": 3,
+                "description": ["모든 아군의 속도가 모든 적보다 높으면, 자신의 피해량이 속도가 가장 느린 적과의 속도 차이에 비례하여 증가 (속도 차이 1당 6%, 최대 30%)"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "양단",
+                "sin": "pride",
+                "type": "공명",
+                "count": 3,
+                "description": ["모든 아군의 속도가 모든 적보다 높으면, 속도가 가장 빠른 아군의 피해량이 속도가 가장 느린 적과의 속도 차이에 비례하여 증가 (속도 차이 1당 3%, 최대 15%)"]
+            }
+        ],
+        "keywords": [
+            "결투 선포",
+            "신속",
+            "속박"
+        ]
+    },
+    "106": {
+        "sinnerNumber": 3,
+        "sinnerName": "돈키호테",
+        "identityName": "중지 작은 아우",
+        "identityDescription": "돈키호테요! 중지의 작은 아우이자, 작은 형님의 든든한 수하! 잘 부탁하네!",
+        "grade": 3,
+        "health": 234,
+        "speed": "4-6",
+        "defense": 55,
+        "resistances": {
+            "slash": "취약",
+            "penetration": "보통",
+            "blow": "내성"
+        },
+        "struggle": "50% 20%",
+        "season": 3,
+        "belong": "중지",
+        "release": "2023-11-23",
+        "way": "추출(시즌 3 이후) / 자아 파편 400 교환(시즌 3, 시즌 5 이후)",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "장부 확인",
+                    "sin": "wrath",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 4,
+                    "coinPower": 3,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 자신의 정신력 5 회복"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[적중시] <출혈> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "의리 증명",
+                    "sin": "envy",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 6,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[전투 시작시] (가장 높은 완전 공명 수/3)만큼 이 스킬의 공격 레벨이 증가(최대 4)",
+                            "해당 스킬이 질투 완전 공명이면, 위 효과로 증가한 값의 50%만큼 공격 레벨이 추가 증가(소수점 버​림)"
+                        ],
+                        "afterAttack": [
+                            [
+                                
+                            ],
+                            [
+                                "[앞면 적중시] <출혈> 3 부여",
+                                "[앞면 적중시] <피해량 감소> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "정의로운 앙갚음",
+                    "sin": "pride",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 3,
+                    "coins": [true,true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[전투 시작시] (가장 높은 완전 공명 수/3)만큼 이 스킬의 공격 레벨이 증가(최대 4)",
+                            "해당 스킬이 질투 완전 공명이면, 위 효과로 증가한 값의 50%만큼 공격 레벨이 추가 증가(소수점 버​림)"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[공격 종료시] 대상이 사망하면 정신력이 가장 낮은 아군 1명의 정신력 6 회복"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "COUNTER",
+                    "skillName": "배로 갚기",
+                    "sin": "envy",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 55,
+                    "skillPower": 5,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 흐트러짐 5 회복"
+                            ],
+                            [
+                                "[적중시] 흐트러짐 5 회복"
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "장부 확인",
+                    "sin": "wrath",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 52,
+                    "skillPower": 4,
+                    "coinPower": 3,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[사용시] 자신의 정신력 5 회복"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[적중시] <출혈> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "의리 증명",
+                    "sin": "envy",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 6,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[전투 시작시] (가장 높은 완전 공명 수/2)만큼 이 스킬의 공격 레벨이 증가(최대 6)",
+                            "해당 스킬이 질투 완전 공명이면, 위 효과로 증가한 값의 50%만큼 공격 레벨이 추가 증가(소수점 버​림)",
+                            "전투 참가 가능 수가 7인 이하인 집중 전투에서는 증가하는 공격 레벨이 2배로 적용됨"
+                        ],
+                        "afterAttack": [
+                            [
+                                
+                            ],
+                            [
+                                "[적중시] <출혈> 3 부여",
+                                "[적중시] <피해량 감소> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "정의로운 앙갚음",
+                    "sin": "pride",
+                    "type": "blow",
+                    "weight": 1,
+                    "Lv": 53,
+                    "skillPower": 4,
+                    "coinPower": 3,
+                    "coins": [true,true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[전투 시작시] (가장 높은 완전 공명 수/2)만큼 이 스킬의 공격 레벨이 증가(최대 6)",
+                            "해당 스킬이 질투 완전 공명이면, 위 효과로 증가한 값의 50%만큼 공격 레벨이 추가 증가(소수점 버​림)",
+                            "전투 참가 가능 수가 7인 이하인 집중 전투에서는 증가하는 공격 레벨이 2배로 적용됨"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[앞면 적중시] <출혈> 1 부여"
+                            ],
+                            [
+                                "[공격 종료시] 대상이 사망하면 정신력이 가장 낮은 아군 1명의 정신력 6 회복"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "COUNTER",
+                    "skillName": "배로 갚기",
+                    "sin": "envy",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 55,
+                    "skillPower": 5,
+                    "coinPower": 4,
+                    "coins": [true,true],
+                    "description": {
+                        "beforeAttack": [
+                            "[전투 시작시] 이 스킬이 포함된 질투 완전 공명이 6 이상이면, 반격 시 정의로운 앙갚음을 사용함.",
+                            "변경 시 해당 스킬의 속성이 질투로 변경됨",
+                            "(조작 패널의 왼쪽 슬롯 스킬부터 발동, 턴 당 최대 2회 발동)"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 흐트러짐 5 회복"
+                            ],
+                            [
+                                "[적중시] 흐트러짐 5 회복"
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "원한 문신",
+                "sin": "envy",
+                "type": "보유",
+                "count": 4,
+                "description": [
+                    "- 자신을 포함한 아군이 3번 피격당할 때마다 다음 턴에 <질투 피해량 증가> 1을 얻음(최대 5)",
+                    "- 턴 종료 시 해당 턴에 아군에게 스킬로 가장 많이 피해를 준 적 1명에게 <앙갚음 대상> 부여",
+                    "- 공격 시 메인 공격 대상이 <앙갚음 대상>인 경우 코인 위력 1 증가"
+                ]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "편 가르기",
+                "sin": "envy",
+                "type": "보유",
+                "count": 3,
+                "description": ["최대 체력이 가장 낮은 아군 1명이 자신을 제외한 아군의 피격 횟수 6회마다 다음 턴에 <타격 피해량 증가> 1을 얻음(최대 2)"]
+            }
+        ],
+        "keywords": [
+            "출혈",
+            "피해량 감소",
+            "질투 피해량 증가",
+            "타격 피해량 증가",
+            "앙갚음 대상"
+        ]
+    }
+}

@@ -1,0 +1,224 @@
+{
+    "13": {
+        "sinnerNumber": 13,
+        "sinnerName": "그레고르",
+        "identityName": "LCB 수감자",
+        "identityDescription": "음… 그레고르다. 뭐, 자고 있을 때 빼고는 편하게 부르라고.",
+        "grade": 1,
+        "health": 196,
+        "speed": "3-7",
+        "defense": 50,
+        "resistances": {
+            "slash": "보통",
+            "penetration": "내성",
+            "blow": "취약"
+        },
+        "struggle": "70% 30%",
+        "season": 1,
+        "belong": "LCB",
+        "release": "2023-02-27",
+        "way": "기본",
+        "before4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "베기",
+                    "sin": "gloom",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 3,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <파열> 4 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "후비기",
+                    "sin": "glut",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 4,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <관통 취약> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "썰어내기",
+                    "sin": "sloth",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 5,
+                    "coinPower": 4,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 대상에게 <파열이> 있을 때 피해량 +10%"
+                            ],
+                            [
+                                "[적중시] 대상에게 <파열이> 있을 때 피해량 +10%",
+                                "[앞면 적중시] 피해량의 30%만큼 체력 회복"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "none",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 8,
+                    "coinPower": 2,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "after4Uptie": {
+            "skills": [
+                {
+                    "skill": "1 SKILL",
+                    "skillName": "베기",
+                    "sin": "gloom",
+                    "type": "slash",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 4,
+                    "coinPower": 7,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <파열> 4 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "2 SKILL",
+                    "skillName": "후비기",
+                    "sin": "glut",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 5,
+                    "coinPower": 10,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            "[적중시] <파열> 횟수 1 증가"
+                        ],
+                        "afterAttack": [
+                            [
+                                "[앞면 적중시] <관통 취약> 1 부여"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "3 SKILL",
+                    "skillName": "썰어내기",
+                    "sin": "sloth",
+                    "type": "penetration",
+                    "weight": 1,
+                    "Lv": 49,
+                    "skillPower": 6,
+                    "coinPower": 4,
+                    "coins": [true,true,true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            [
+                                "[적중시] 대상에게 <파열이> 있을 때 피해량 +10%"
+                            ],
+                            [
+                                "[적중시] 대상에게 <파열이> 있을 때 피해량 +10%",
+                                "[앞면 적중시] 피해량의 30%만큼 체력 회복"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "skill": "GUARD",
+                    "skillName": "가드",
+                    "sin": "gloom",
+                    "type": "none",
+                    "weight": 1,
+                    "Lv": 50,
+                    "skillPower": 8,
+                    "coinPower": 3,
+                    "coins": [true],
+                    "description": {
+                        "beforeAttack": [
+                            
+                        ],
+                        "afterAttack": [
+                            
+                        ]
+                    }
+                }
+            ]
+        },
+        "passives": [
+            {
+                "skill": "PASSIVE",
+                "skillName": "강제생존",
+                "sin": "gloom",
+                "type": "보유",
+                "count": 3,
+                "description": ["전투 시작 자신의 체력 5 회복"]
+            },
+            {
+                "skill": "SUPPORT PASSIVE",
+                "skillName": "인자 코드 G-0",
+                "sin": "gloom",
+                "type": "보유",
+                "count": 3,
+                "description": ["현재 체력이 가장 낮은 아군 1명 전투 시작 시 체력 5 회복"]
+            }
+        ],
+        "keywords": [
+            "파열",
+            "관통 취약"
+        ]
+    }
+}

@@ -1,0 +1,161 @@
+.iip__profile {
+    background-color: var(--frame_bg);
+    border-radius: 10px;
+    outline: solid 2px var(--outline_color);
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+}
+
+.iip__profile__lr {
+    width: 50%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.iip__profile__left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.iip__profile__right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.iip__identityName{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.iip__identityName__logo{
+    width: 10%;
+    height: 10%;
+}
+
+.iip__identityName__name{
+    font-family: "Paperlogy-6";
+}
+
+.iip__identityDescriptionContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iip__identityDescription{
+    font-family: "Paperlogy-6";
+}
+
+.iip__identityImg {
+    width: 90%;
+}
+
+
+.iip__gradeImg {
+    width: 20%;
+}
+
+.iip__status{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.iip__status__{
+    color: var(--whitetext_color);
+    font-family: "Paperlogy-6";
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+.iip__statusIcon{
+    width: 20%;
+    
+}
+
+.iip__resistances{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.iip__resistances__{
+    font-family: "Paperlogy-6";
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+.iip__resistanceIcon{
+    width: 20%;
+}
+
+.iip__details{
+    color: var(--text_color);
+    font-family: "Paperlogy-6";
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.iip__detailsValue{
+    color: var(--whitetext_color);
+    font-family: "Paperlogy-6";
+}
+
+
+
+
+
+.test {
+    font-family: "Paperlogy-9";
+}
+
+
+
+
+.iip__내성{
+    color: gray;
+}
+
+.iip__보통{
+    color: white;
+}
+
+.iip__취약{
+    color: darkred;
+}
