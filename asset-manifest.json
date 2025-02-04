@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/LimbusUtil/static/css/main.3dff0190.css",
-    "main.js": "/LimbusUtil/static/js/main.ca998c09.js",
-    "static/media/Paperlogy-1Thin.ttf": "/LimbusUtil/static/media/Paperlogy-1Thin.ee313abc31e0d9ea22db.ttf",
-    "static/media/Paperlogy-4Regular.ttf": "/LimbusUtil/static/media/Paperlogy-4Regular.3f9b448bfc4e1c72585f.ttf",
-    "static/media/Paperlogy-6SemiBold.ttf": "/LimbusUtil/static/media/Paperlogy-6SemiBold.ccae5d3b3bb3e0b60c45.ttf",
-    "static/media/Paperlogy-9Black.ttf": "/LimbusUtil/static/media/Paperlogy-9Black.619ffedf0bf3a9677fb8.ttf",
-    "index.html": "/LimbusUtil/index.html",
-    "main.3dff0190.css.map": "/LimbusUtil/static/css/main.3dff0190.css.map",
-    "main.ca998c09.js.map": "/LimbusUtil/static/js/main.ca998c09.js.map"
+    "main.css": "/static/css/main.1c153345.css",
+    "main.js": "/static/js/main.02bb270e.js",
+    "static/media/Paperlogy-1Thin.ttf": "/static/media/Paperlogy-1Thin.ee313abc31e0d9ea22db.ttf",
+    "static/media/Paperlogy-4Regular.ttf": "/static/media/Paperlogy-4Regular.3f9b448bfc4e1c72585f.ttf",
+    "static/media/Paperlogy-6SemiBold.ttf": "/static/media/Paperlogy-6SemiBold.ccae5d3b3bb3e0b60c45.ttf",
+    "static/media/Paperlogy-9Black.ttf": "/static/media/Paperlogy-9Black.619ffedf0bf3a9677fb8.ttf",
+    "index.html": "/index.html",
+    "main.1c153345.css.map": "/static/css/main.1c153345.css.map",
+    "main.02bb270e.js.map": "/static/js/main.02bb270e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dff0190.css",
-    "static/js/main.ca998c09.js"
+    "static/css/main.1c153345.css",
+    "static/js/main.02bb270e.js"
   ]
 }
