@@ -1,3 +1,515 @@
+@media (max-width: 767px){
+	.iip__profile__lr {
+        width: 50%;
+        height: 100%;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+    .iip__profile__left {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .iip__profile__right {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .iip__identityName{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+    }
+    
+    .iip__identityName__logo{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .iip__identityName__name{
+        font-family: "Paperlogy-6";
+        font-size: 8px;
+    }
+    
+    .iip__identityDescription{
+        font-family: "Paperlogy-6";
+        font-size: 8px;
+    }
+    
+    .iip__gradeImg {
+        width: 10%;
+    }
+    
+    .iip__status{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    .iip__status__{
+        color: var(--whitetext_color);
+        font-family: "Paperlogy-6";
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        gap: 3px;
+    }
+    
+    .iip__statusIcon{
+        width: 12px;
+    }
+    
+    .iip__resistances{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    .iip__resistances__{
+        font-family: "Paperlogy-6";
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        gap: 3px;
+    }
+    
+    .iip__resistanceIcon{
+        width: 12px;
+    }
+    
+    .iip__details{
+        color: var(--text_color);
+        font-family: "Paperlogy-6";
+        font-size: 10px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+    }
+
+    .iip__profile {
+        background-color: var(--frame_bg);
+        border-radius: 3px;
+        outline: solid 2px var(--outline_color);
+    
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .iip__profile__lr {
+        width: 50%;
+        height: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    
+    .iip__profile__left {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .iip__profile__right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .iip__identityName{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .iip__identityName__logo{
+        width: 36px;
+        height: 36px;
+    }
+    
+    .iip__identityName__name{
+        font-family: "Paperlogy-6";
+        font-size: 12px;
+    }
+    
+    .iip__identityDescription{
+        font-family: "Paperlogy-6";
+        font-size: 12px;
+    }
+    
+    .iip__gradeImg {
+        width: 20%;
+    }
+    
+    .iip__status{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .iip__status__{
+        color: var(--whitetext_color);
+        font-family: "Paperlogy-6";
+        font-size: 16px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        gap: 3px;
+    }
+    
+    .iip__statusIcon{
+        width: 20px;
+    }
+    
+    .iip__resistances{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .iip__resistances__{
+        font-family: "Paperlogy-6";
+        font-size: 16px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        gap: 3px;
+    }
+    
+    .iip__resistanceIcon{
+        width: 20px;
+    }
+    
+    .iip__details{
+        color: var(--text_color);
+        font-family: "Paperlogy-6";
+        font-size: 16px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+    }
+
+    .iip__profile {
+        background-color: var(--frame_bg);
+        border-radius: 5px;
+        outline: solid 2px var(--outline_color);
+    
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .iip__profile__lr {
+        width: 50%;
+        height: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    
+    .iip__profile__left {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .iip__profile__right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    
+    
+    .iip__identityName{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .iip__identityName__logo{
+        width: 48px;
+        height: 48px;
+    }
+    
+    .iip__identityName__name{
+        font-family: "Paperlogy-6";
+        font-size: 16px;
+    }
+    
+    .iip__identityDescription{
+        font-family: "Paperlogy-6";
+        font-size: 16px;
+    }
+    
+    .iip__gradeImg {
+        width: 20%;
+    }
+    
+    .iip__status{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .iip__status__{
+        color: var(--whitetext_color);
+        font-family: "Paperlogy-6";
+        font-size: 20px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        gap: 5px;
+    }
+    
+    .iip__statusIcon{
+        width: 20px;
+        
+    }
+    
+    .iip__resistances{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .iip__resistances__{
+        font-family: "Paperlogy-6";
+        font-size: 20px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        gap: 5px;
+    }
+    
+    .iip__resistanceIcon{
+        width: 20px;
+    }
+    
+    .iip__details{
+        color: var(--text_color);
+        font-family: "Paperlogy-6";
+        font-size: 20px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .iip__profile__lr {
+        width: 50%;
+        height: 100%;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    
+    .iip__profile__left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .iip__profile__right {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .iip__identityName{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .iip__identityName__logo{
+        width: 48px;
+        height: 48px;
+    }
+    
+    .iip__identityName__name{
+        font-family: "Paperlogy-6";
+        font-size: 16px;
+    }
+
+    .iip__identityDescription{
+        font-family: "Paperlogy-6";
+        font-size: 16px;
+    }
+    
+    
+    .iip__gradeImg {
+        width: 30%;
+    }
+    
+    .iip__status{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .iip__status__{
+        color: var(--whitetext_color);
+        font-family: "Paperlogy-6";
+        font-size: 20px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        gap: 5px;
+    }
+    
+    .iip__statusIcon{
+        width: 28px;
+        
+    }
+    
+    .iip__resistances{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .iip__resistances__{
+        font-family: "Paperlogy-6";
+        font-size: 20px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        gap: 5px;
+    }
+    
+    .iip__resistanceIcon{
+        width: 28px;
+    }
+    
+    .iip__details{
+        color: var(--text_color);
+        font-family: "Paperlogy-6";
+        font-size: 18px;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .iip__profile {
+        background-color: var(--frame_bg);
+        border-radius: 10px;
+        outline: solid 2px var(--outline_color);
+    
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    
+        text-align: center;
+    }
+}
+
+
+
+    
+.iip__identityDescriptionContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .iip__profile {
     background-color: var(--frame_bg);
     border-radius: 10px;
@@ -11,125 +523,8 @@
     text-align: center;
 }
 
-.iip__profile__lr {
-    width: 50%;
-    height: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.iip__profile__left {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-}
-
-.iip__profile__right {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 3vh;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-
-.iip__identityName{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.iip__identityName__logo{
-    width: 10%;
-    height: 10%;
-}
-
-.iip__identityName__name{
-    font-family: "Paperlogy-6";
-}
-
-.iip__identityDescriptionContainer{
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.iip__identityDescription{
-    font-family: "Paperlogy-6";
-}
-
 .iip__identityImg {
     width: 90%;
-}
-
-
-.iip__gradeImg {
-    width: 20%;
-}
-
-.iip__status{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.iip__status__{
-    color: var(--whitetext_color);
-    font-family: "Paperlogy-6";
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
-    gap: 5px;
-}
-
-.iip__statusIcon{
-    width: 20%;
-    
-}
-
-.iip__resistances{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.iip__resistances__{
-    font-family: "Paperlogy-6";
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
-    gap: 5px;
-}
-
-.iip__resistanceIcon{
-    width: 20%;
-}
-
-.iip__details{
-    color: var(--text_color);
-    font-family: "Paperlogy-6";
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 .iip__detailsValue{
@@ -138,15 +533,9 @@
 }
 
 
-
-
-
 .test {
     font-family: "Paperlogy-9";
 }
-
-
-
 
 .iip__내성{
     color: gray;

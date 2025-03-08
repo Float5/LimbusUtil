@@ -142,13 +142,16 @@
     "찢어진 추억": "tornMemory",
     "나비": "butterfly",
     "전략적 휴식 복지 모드": "strategicRnRMode",
-    "딜리버리 캐리어": "courierTrunk",
+    "딜리버리 캐리어 - 로쟈": "courierTrunk",
+    "딜리버리 캐리어 - 싱클레어": "courierTrunk",
     "합 가능 가드": "clashableGuard",
     "혈찬": "bloodfeast",
     "누적 소모 혈찬": "totalBloodfeastConsumed",
     "공용 누적 소모 혈찬": "totalBloodfeastConsumedShared",
     "올가미": "lasso",
     "재장전": "reload",
+    "흑운도": "blackLunarity",
+    "임전": "lim",
     
 
     "시술": "surgery",
@@ -190,8 +193,8 @@
     "참회 - 경계": "penitencePeriphery",
     "참회 - 고해": "penitenceConfession",
     "하얗게 태워버렸군": "onlyAshesRemain",
-    "산나비 죽은나비": "theLivingNTheDeparted",
-    "재장전(나비)": "reloadButterfly",
+    "산나비·죽은나비": "theLivingNTheDeparted",
+    "재장전 - 이상": "reloadButterfly",
     "초청받지 않은 자": "theUninvited",
     "방어 태세": "defensiveStance",
     "집중 공격": "focusedAttack",
@@ -205,7 +208,7 @@
     "축제의 열기": "festiveFever",
     "참선": "dhyana",
     "경혈": "hardBlood",
-    "일렁임 [혈귀]": "shimmeringBloodfiend",
+    "일렁임[혈귀]": "shimmeringBloodfiend",
     "책임감": "Responsibility",
     "타겟 포착": "targetSpotted",
     "탄환 - 로직 아틀리에": "ammoAtelierLogic",
@@ -215,6 +218,8 @@
     "의뢰 대상": "requestedTarget",
     "미끼 요정": "fairyLure",
     "깊은 들숨": "deepBreath",
-    "네뷸라이저 β": "nebulizerBeta"
+    "네뷸라이저 β": "nebulizerBeta",
+    "검은 구름": "blackClouds",
+    "구름 장벽": "cloudBarrier"
 
 }

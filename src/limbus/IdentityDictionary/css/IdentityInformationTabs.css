@@ -1,35 +1,144 @@
-.iit__tabs{
-    background-color: var(--frame_bg);
-    border-radius: 10px;
-    outline: solid 2px var(--outline_color);
-
-    width: 100%;
-    height: 5vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    text-align: center;
+@media (max-width: 767px){
+	.iit__tabs{
+        background-color: var(--frame_bg);
+        border-radius: 3px;
+        outline: solid 2px var(--outline_color);
+    
+        width: 100%;
+        height: 24px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+        text-align: center;
+    }
+    
+    .iit__tab{
+        width: 33.33%;
+        height: 100%;
+        border-radius: 5px;
+        background-color: var(--frame_bg);
+        color: var(--text_color);
+        font-size: small;
+        font-family: "Paperlogy-6";
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        transition: background-color 0.2s ease;
+    
+        cursor: pointer;
+    }
 }
 
-.iit__tab{
-    width: 33.33%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: var(--frame_bg);
-    color: var(--text_color);
-    font-size: x-large;
-    font-family: "Paperlogy-6";
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    transition: background-color 0.2s ease;
-
-    cursor: pointer;
+@media (min-width: 768px) and (max-width: 991px) {
+    .iit__tabs{
+        background-color: var(--frame_bg);
+        border-radius: 10px;
+        outline: solid 2px var(--outline_color);
+    
+        width: 100%;
+        height: 32px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+        text-align: center;
+    }
+    
+    .iit__tab{
+        width: 33.33%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: var(--frame_bg);
+        color: var(--text_color);
+        font-size: medium;
+        font-family: "Paperlogy-6";
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        transition: background-color 0.2s ease;
+    
+        cursor: pointer;
+    }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .iit__tabs{
+        background-color: var(--frame_bg);
+        border-radius: 10px;
+        outline: solid 2px var(--outline_color);
+    
+        width: 100%;
+        height: 36px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+        text-align: center;
+    }
+    
+    .iit__tab{
+        width: 33.33%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: var(--frame_bg);
+        color: var(--text_color);
+        font-size: large;
+        font-family: "Paperlogy-6";
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        transition: background-color 0.2s ease;
+    
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1200px) {
+    .iit__tabs{
+        background-color: var(--frame_bg);
+        border-radius: 10px;
+        outline: solid 2px var(--outline_color);
+    
+        width: 100%;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+        text-align: center;
+    }
+    
+    .iit__tab{
+        width: 33.33%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: var(--frame_bg);
+        color: var(--text_color);
+        font-size: x-large;
+        font-family: "Paperlogy-6";
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        transition: background-color 0.2s ease;
+    
+        cursor: pointer;
+    }
+}
+
+
 
 .iit__tab__selected{
     background-color: var(--selected_bg);

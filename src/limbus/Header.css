@@ -1,43 +1,183 @@
-header{
-    background-color: var(--headandfoot_bg);
-
-    width: 100vw;
-    height: 8vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 767px){
+	header{
+        background-color: var(--headandfoot_bg);
+    
+        width: 100vw;
+        height: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header__inner{
+        width: 90vw;
+        height: 5vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header__logo{
+        color: var(--redtext_color);
+        font-size: large;
+        font-family: "Paperlogy-9";
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .header__tabs {
+        color: var(--text_color);
+        font-size: x-small;
+        font-family: "Paperlogy-6";
+    
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
 }
 
-.header__inner{
-    width: 90vw;
-    height: 5vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+@media (min-width: 768px) and (max-width: 991px) {
+    header{
+        background-color: var(--headandfoot_bg);
+    
+        width: 100vw;
+        height: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header__inner{
+        width: 90vw;
+        height: 5vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header__logo{
+        color: var(--redtext_color);
+        font-size: x-large;
+        font-family: "Paperlogy-9";
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .header__tabs {
+        color: var(--text_color);
+        font-size: small;
+        font-family: "Paperlogy-6";
+    
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
 }
 
-.header__logo{
-    color: var(--redtext_color);
-    font-size: xx-large;
-    font-family: "Paperlogy-9";
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (min-width: 992px) and (max-width: 1199px) {
+    header{
+        background-color: var(--headandfoot_bg);
+    
+        width: 100vw;
+        height: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header__inner{
+        width: 90vw;
+        height: 5vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header__logo{
+        color: var(--redtext_color);
+        font-size: xx-large;
+        font-family: "Paperlogy-9";
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .header__tabs {
+        color: var(--text_color);
+        font-size: large;
+        font-family: "Paperlogy-6";
+    
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 }
 
-
-.header__tabs {
-    color: var(--text_color);
-    font-size: large;
-    font-family: "Paperlogy-6";
-
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+@media (min-width: 1200px) {
+    header{
+        background-color: var(--headandfoot_bg);
+    
+        width: 100vw;
+        height: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header__inner{
+        width: 90vw;
+        height: 5vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header__logo{
+        color: var(--redtext_color);
+        font-size: xx-large;
+        font-family: "Paperlogy-9";
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .header__tabs {
+        color: var(--text_color);
+        font-size: large;
+        font-family: "Paperlogy-6";
+    
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 }

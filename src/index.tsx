@@ -8,16 +8,19 @@ import "./limbus/IdentityDictionary/css/IdentityInformation.css"
 import "./limbus/IdentityDictionary/css/IdentityInformationProfile.css"
 import "./limbus/IdentityDictionary/css/IdentityInformationTabs.css"
 import "./limbus/IdentityDictionary/css/IdentityInformationInfos.css"
+import "./limbus/IdentityDictionary/css/IdentityDictionary.css"
+import "./limbus/IdentityDictionary/css/IdentityDictionaryFilter.css"
+import "./limbus/IdentityDictionary/css/IdentityDictionaryList.css"
 import { HelmetProvider } from "react-helmet-async";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <HelmetProvider>
         <App />
       </HelmetProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );

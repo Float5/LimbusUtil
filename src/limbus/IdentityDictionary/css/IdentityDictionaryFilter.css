@@ -1,0 +1,885 @@
+@media (max-width: 767px){
+    .idf__background{
+        width: 100%;
+        height: fit-content;
+    
+        background-color: var(--frame_bg);
+    
+        gap: 4px;
+        border-radius: 5px;
+    
+        border: 1.5px solid var(--outline_color);
+    }
+    
+    .idf__top{
+        align-items: center;
+        justify-content: space-between;
+        padding: 6px 8px 6px 8px;
+    
+        height: 24px;
+    }
+    
+    .idf__mid{
+        align-items: center;
+        gap: 8px;
+    }
+    
+    
+    .idf__top__text{
+        color: var(--text_color);
+        font-family: "Paperlogy-9";
+        font-size: 20px;
+    }
+    
+    .idf__top__resetBtn{
+        color: var(--text_color);
+        font-family: "Paperlogy-9";
+        font-size: 14px;
+    
+        cursor: pointer;
+    
+        background-color: var(--button_bg);
+        width: 56px;
+        height: 28px;
+        border-radius: 4px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        transition: background-color 0.2s;
+    }
+    
+    .idf__mid__1{
+        padding: 4px 6px 4px 6px;
+        gap: 4px;
+    }
+    
+    .idf__sinner__filter, .idf__sin__filter, .idf__type__filter, .idf__season__filter, .idf__grade__filter{
+        gap: 4px;
+    }
+    
+    .idf__sinner__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2px;
+    }
+    
+    .idf__sin__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+    }
+    
+    .idf__type__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+    }
+    
+    .idf__season__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2px;
+    }
+    
+    .idf__grade__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2px;
+    }
+    
+    .idf__filter__text{
+        color: var(--text_color);
+        font-family: "Paperlogy-6";
+        font-size: 12px;
+    }
+    
+    .idf__filterBtn{
+        width: 24px;
+        height: 24px;
+        background-color: var(--button_bg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+        border: 1px solid var(--frame_bg);
+    
+        cursor: pointer;
+    
+        transition: background-color 0.2s;
+    }
+    
+    .idf__sinner__filterImg, .idf__sin__filterImg, .idf__type__filterImg, .idf__season__filterImg, .idf__grade__filterImg{
+        height: 15px;
+        
+        color: var(--text_color);
+        font-size: 15px;
+        font-family: "Paperlogy-6";
+    }
+    
+    
+    .idf__mid__2{
+        padding: 6px 8px 6px 8px;
+        gap: 8px;
+    }
+    
+    
+    .idf__speed__filter, .idf__keyword__filter{
+        gap: 4px;
+    }
+    
+    .idf__speed__filterFrame{
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    
+        gap: 2px;
+        align-items: center;
+    }
+    
+    .idf__speed__filterInput{
+        width: 24px;
+        height: 24px;
+        
+        background-color: var(--button_bg);
+        border: none;
+    
+        color: var(--text_color);
+        font-size: 15px;
+        font-family: "Paperlogy-6";
+    
+        text-align: center;
+    }
+    
+    .idf__keyword__filterInput{
+        width: 180px;
+        height: 24px;
+    
+        color: var(--text_color);
+        font-size: 15px;
+        font-family: "Paperlogy-6";
+    
+        background-color: var(--button_bg);
+        border: none;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .idf__keyword__filter__dropdown {
+        position: absolute;
+        width: 180px;
+        max-height: 200px;
+        overflow-y: auto;
+        background: var(--button_bg);
+        margin-top: 60px;
+    
+        color: var(--text_color);
+        font-size: 14px;
+        font-family: "Paperlogy-6";
+        padding: 0px 10px 0px 10px;
+    
+        text-align: center;
+        
+    }
+    
+    .idf__keyword__filter__dropdown__option{
+        padding: 5px 0px 5px 0px;
+        cursor: pointer;
+        user-select: none;
+        transition: background-color 0.1s;
+    }
+    
+    .idf__keyword__filtered__list{
+        width: 180px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .idf__keyword__filtered{
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 5px 5px 5px;
+        background-color: var(--button_bg);
+        border-radius: 5px;
+    
+        cursor: pointer;
+        user-select: none;
+    
+        color: var(--text_color);
+        font-size: 12px;
+        font-family: "Paperlogy-6";
+    
+        transition: background-color 0.2s;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .idf__background{
+        width: 100%;
+        height: fit-content;
+    
+        background-color: var(--frame_bg);
+    
+        gap: 6px;
+        border-radius: 8px;
+    
+        border: 2px solid var(--outline_color);
+    }
+    
+    .idf__top{
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 12px 8px 12px;
+    
+        height: 32px;
+    }
+    
+    .idf__mid{
+        align-items: center;
+        gap: 10px;
+    }
+    
+    
+    .idf__top__text{
+        color: var(--text_color);
+        font-family: "Paperlogy-9";
+        font-size: 30px;
+    }
+    
+    .idf__top__resetBtn{
+        color: var(--text_color);
+        font-family: "Paperlogy-9";
+        font-size: 20px;
+    
+        cursor: pointer;
+    
+        background-color: var(--button_bg);
+        width: 72px;
+        height: 32px;
+        border-radius: 4px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        transition: background-color 0.2s;
+    }
+    
+    .idf__mid__1{
+        padding: 6px 12px 6px 12px;
+        gap: 6px;
+    }
+    
+    .idf__sinner__filter, .idf__sin__filter, .idf__type__filter, .idf__season__filter, .idf__grade__filter{
+        gap: 5px;
+    }
+    
+    .idf__sinner__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__sin__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__type__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__season__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__grade__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__filter__text{
+        color: var(--text_color);
+        font-family: "Paperlogy-6";
+        font-size: 16px;
+    }
+    
+    .idf__filterBtn{
+        width: 32px;
+        height: 32px;
+        background-color: var(--button_bg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        border: 1px solid var(--frame_bg);
+    
+        cursor: pointer;
+    
+        transition: background-color 0.2s;
+    }
+    
+    .idf__sinner__filterImg, .idf__sin__filterImg, .idf__type__filterImg, .idf__season__filterImg, .idf__grade__filterImg{
+        height: 20px;
+        
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    }
+    
+    
+    .idf__mid__2{
+        padding: 8px 16px 8px 16px;
+        gap: 12px;
+    }
+    
+    
+    .idf__speed__filter, .idf__keyword__filter{
+        gap: 6px;
+    }
+    
+    .idf__speed__filterFrame{
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    
+        gap: 4px;
+        align-items: center;
+    }
+    
+    .idf__speed__filterInput{
+        width: 32px;
+        height: 32px;
+        
+        background-color: var(--button_bg);
+        border: none;
+    
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    
+        text-align: center;
+    }
+    
+    .idf__keyword__filterInput{
+        width: 250px;
+        height: 32px;
+    
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    
+        background-color: var(--button_bg);
+        border: none;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .idf__keyword__filter__dropdown {
+        position: absolute;
+        width: 250px;
+        max-height: 300px;
+        overflow-y: auto;
+        background: var(--button_bg);
+        margin-top: 60px;
+    
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+        padding: 0px 10px 0px 10px;
+    
+        text-align: center;
+        
+    }
+    
+    .idf__keyword__filter__dropdown__option{
+        padding: 5px 0px 5px 0px;
+        cursor: pointer;
+        user-select: none;
+        transition: background-color 0.1s;
+    }
+    
+    .idf__keyword__filtered__list{
+        width: 250px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .idf__keyword__filtered{
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 5px 5px 5px;
+        background-color: var(--button_bg);
+        border-radius: 5px;
+    
+        cursor: pointer;
+        user-select: none;
+    
+        color: var(--text_color);
+        font-size: 16px;
+        font-family: "Paperlogy-6";
+    
+        transition: background-color 0.2s;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .idf__background{
+        width: 100%;
+        height: fit-content;
+    
+        background-color: var(--frame_bg);
+    
+        gap: 8px;
+        border-radius: 10px;
+    
+        border: 2px solid var(--outline_color);
+    }
+    
+    .idf__top{
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 16px 8px 16px;
+    
+        height: 40px;
+    }
+    
+    .idf__mid{
+        align-items: center;
+        gap: 12px;
+    }
+    
+    
+    .idf__top__text{
+        color: var(--text_color);
+        font-family: "Paperlogy-9";
+        font-size: 36px;
+    }
+    
+    .idf__top__resetBtn{
+        color: var(--text_color);
+        font-family: "Paperlogy-9";
+        font-size: 24px;
+    
+        cursor: pointer;
+    
+        background-color: var(--button_bg);
+        width: 90px;
+        height: 40px;
+        border-radius: 5px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        transition: background-color 0.2s;
+    }
+    
+    .idf__mid__1{
+        padding: 8px 16px 8px 16px;
+        gap: 8px;
+    }
+    
+    .idf__sinner__filter, .idf__sin__filter, .idf__type__filter, .idf__season__filter, .idf__grade__filter{
+        gap: 6px;
+    }
+    
+    .idf__sinner__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__sin__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__type__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__season__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__grade__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__filter__text{
+        color: var(--text_color);
+        font-family: "Paperlogy-6";
+        font-size: 16px;
+    }
+    
+    .idf__filterBtn{
+        width: 32px;
+        height: 32px;
+        background-color: var(--button_bg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        border: 1px solid var(--frame_bg);
+    
+        cursor: pointer;
+    
+        transition: background-color 0.2s;
+    }
+    
+    .idf__sinner__filterImg, .idf__sin__filterImg, .idf__type__filterImg, .idf__season__filterImg, .idf__grade__filterImg{
+        height: 20px;
+        
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    }
+    
+    
+    .idf__mid__2{
+        padding: 8px 16px 8px 16px;
+        gap: 12px;
+    }
+    
+    
+    .idf__speed__filter, .idf__keyword__filter{
+        gap: 6px;
+    }
+    
+    .idf__speed__filterFrame{
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    
+        gap: 4px;
+        align-items: center;
+    }
+    
+    .idf__speed__filterInput{
+        width: 32px;
+        height: 32px;
+        
+        background-color: var(--button_bg);
+        border: none;
+    
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    
+        text-align: center;
+    }
+    
+    .idf__keyword__filterInput{
+        width: 250px;
+        height: 32px;
+    
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    
+        background-color: var(--button_bg);
+        border: none;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .idf__keyword__filter__dropdown {
+        position: absolute;
+        width: 250px;
+        max-height: 350px;
+        overflow-y: auto;
+        background: var(--button_bg);
+        margin-top: 60px;
+    
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+        padding: 0px 10px 0px 10px;
+    
+        text-align: center;
+        
+    }
+    
+    .idf__keyword__filter__dropdown__option{
+        padding: 5px 0px 5px 0px;
+        cursor: pointer;
+        user-select: none;
+        transition: background-color 0.1s;
+    }
+    
+    .idf__keyword__filtered__list{
+        width: 250px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .idf__keyword__filtered{
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 5px 5px 5px;
+        background-color: var(--button_bg);
+        border-radius: 5px;
+    
+        cursor: pointer;
+        user-select: none;
+    
+        color: var(--text_color);
+        font-size: 16px;
+        font-family: "Paperlogy-6";
+    
+        transition: background-color 0.2s;
+    }
+}
+
+@media (min-width: 1200px){
+    .idf__background{
+        width: 100%;
+        height: fit-content;
+    
+        background-color: var(--frame_bg);
+    
+        gap: 10px;
+        border-radius: 10px;
+    
+        border: 2px solid var(--outline_color);
+    }
+    
+    .idf__top{
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px 10px 20px;
+    
+        height: 50px;
+    }
+    
+    .idf__mid{
+        align-items: center;
+        gap: 16px;
+    }
+    
+    
+    .idf__top__text{
+        color: var(--text_color);
+        font-family: "Paperlogy-9";
+        font-size: 36px;
+    }
+    
+    .idf__top__resetBtn{
+        color: var(--text_color);
+        font-family: "Paperlogy-9";
+        font-size: 24px;
+    
+        cursor: pointer;
+    
+        background-color: var(--button_bg);
+        width: 96px;
+        height: 48px;
+        border-radius: 5px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        transition: background-color 0.2s;
+    }
+    
+    
+    .idf__mid__1{
+        padding: 10px 20px 10px 20px;
+        gap: 12px;
+    }
+    
+    .idf__sinner__filter, .idf__sin__filter, .idf__type__filter, .idf__season__filter, .idf__grade__filter{
+        gap: 8px;
+    }
+    
+    .idf__sinner__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__sin__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__type__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__season__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__grade__filterBtnFrame{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3px;
+    }
+    
+    .idf__filter__text{
+        color: var(--text_color);
+        font-family: "Paperlogy-6";
+        font-size: 16px;
+    }
+    
+    .idf__filterBtn{
+        width: 32px;
+        height: 32px;
+        background-color: var(--button_bg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        border: 1px solid var(--frame_bg);
+    
+        cursor: pointer;
+    
+        transition: background-color 0.2s;
+    }
+    
+    .idf__sinner__filterImg, .idf__sin__filterImg, .idf__type__filterImg, .idf__season__filterImg, .idf__grade__filterImg{
+        height: 20px;
+        
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    }
+    
+    
+    
+    .idf__mid__2{
+        padding: 10px 20px 10px 20px;
+        gap: 12px;
+    }
+    
+    
+    .idf__speed__filter, .idf__keyword__filter{
+        gap: 8px;
+    }
+    
+    .idf__speed__filterFrame{
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    
+        gap: 4px;
+        align-items: center;
+    }
+    
+    .idf__speed__filterInput{
+        width: 32px;
+        height: 32px;
+        
+        background-color: var(--button_bg);
+        border: none;
+    
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    
+        text-align: center;
+    }
+    
+    .idf__keyword__filterInput{
+        width: 250px;
+        height: 32px;
+    
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    
+        background-color: var(--button_bg);
+        border: none;
+        padding: 0px 10px 0px 10px;
+    
+    
+    }
+    
+    .idf__keyword__filter__dropdown {
+        position: absolute;
+        width: 250px;
+        max-height: 400px;
+        overflow-y: auto;
+        background: var(--button_bg);
+        margin-top: 60px;
+    
+        color: var(--text_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+        padding: 0px 10px 0px 10px;
+    
+        text-align: center;
+        
+    }
+    
+    .idf__keyword__filter__dropdown__option{
+        padding: 5px 0px 5px 0px;
+        cursor: pointer;
+        user-select: none;
+        transition: background-color 0.1s;
+    }
+    
+    .idf__keyword__filtered__list{
+        width: 250px;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .idf__keyword__filtered{
+        width: fit-content;
+        height: fit-content;
+        padding: 5px 5px 5px 5px;
+        background-color: var(--button_bg);
+        border-radius: 5px;
+    
+        cursor: pointer;
+        user-select: none;
+    
+        color: var(--text_color);
+        font-size: 16px;
+        font-family: "Paperlogy-6";
+    
+        transition: background-color 0.2s;
+    }
+}
+
+
+.idf {
+    width: 100%;
+    height: fit-content;
+}
+
+.idf__top__resetBtn:hover{
+    background-color: var(--selected_bg);
+}
+
+.idf__filterBtn:hover{
+    background-color: var(--selected_bg);
+}
+
+.idf__keyword__filter__dropdown__option:hover{
+    background-color: var(--selected_bg);
+}
+
+.idf__keyword__filtered:hover{
+    background-color: var(--selected_bg);
+}

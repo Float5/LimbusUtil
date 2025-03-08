@@ -1,268 +1,1015 @@
+@media (max-width: 767px){
+	.iis__main{
+        width: 90vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 
+    .iis__uptie{
+        width: fit-content;
+        transition: all 0.3s ease;
+    
+        font-size: 12px;
+        font-family: "Paperlogy-6";
+        color: var(--whitetext_color);
+    
+        background-color: var(--frame_bg);
+        padding: 8px 10px 8px 10px;
+        border-radius: 5px;
+        outline: solid 1px var(--outline_color);
+    
+        cursor: pointer;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .iis__tabs{
+        width: 100%;
+        height: fit-content;
+        gap: 80px;
+    }
+    
+    
+    
+    .iis__skill__up, .iis__passive__up, .iis__keyword__up{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        padding: 10px 10px 10px 10px;
+        gap: 5px;
+    }
 
+    .iis__skill__up__under{
+        gap: 5px;
+    }
+    
+    .iis__skill__under, .iis__passive__under, .iis__keyword__under{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        padding: 5px 10px 10px 10px;
+        gap: 20px;
+    }
+    
+    
+    .iis__skills, .iis__passives, .iis__keywords{
+        width: 100%;
+        height: fit-content;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .iis__skill, .iis__passive, .iis__keyword{
+        width: 100%;
+        height: fit-content;
+    
+        background-color: var(--button_bg);
+        outline: 1px solid var(--outline_color);
+    
+        border-radius: 3px;
+    }
+    
+    .iis__skill__name, .iis__passive__name, .iis__keyword__name{
+        justify-content: center;
+    
+        color: var(--whitetext_color);
+        font-size: 16px;
+        font-family: "Paperlogy-6";
+    
+        gap: 6px;
+    }
 
+    .iis__passive__gap{
+        gap: 6px;
+    }
+    
+    .iis__skill__sin, .iis__passive__sin{
+        height: 16px;
+    }
+    
+    .iis__skill__type{
+        height: 16px;
+    }
+    
+    
+    .iis__skill__coin{
+        width: 12px;
+    }
+    
+    
+    .iis__skill__weights{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+    }
 
-.iis__main{
-    width: 60vw;
+    .iis__skill__weightDivs{
+        gap: 1px;
+    }
+    
+    .iis__skill__weight{
+        width: 6px;
+        height: 6px;
+        background-color: var(--text_color);
+    }
+    
+    
+    .iis__skill__Lv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+    }
+    
+    .iis__skill__LvIcon__Icon{
+        width: 12px;
+    }
+    
+    
+    .iis__skill__Power{
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+    
+    .iis__skill__skillPower{
+        gap: 3px;
+    }
+    
+    .iis__skill__coinPower{
+        gap: 3px;
+    }
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+    .iis__skill__weightText{
+        width: fit-content;
+        color: var(--text_color);
+        font-size: 9px;
+        font-family: "Paperlogy-6";
+    }
+
+    .iis__skill__LvText{
+        color: var(--text_color);
+        font-size: 9px;
+        font-family: "Paperlogy-6";
+    }
+    
+    .iis__skill__LvValue{
+        color: var(--whitetext_color);
+        font-size: 9px;
+        font-family: "Paperlogy-6";
+    }
+
+    .iis__skill__skillPowerText, .iis__skill__coinPowerText{
+        color: var(--text_color);
+        font-size: 9px;
+        font-family: "Paperlogy-6";
+    }
+    
+    .iis__skill__skillPowerValue, .iis__skill__coinPowerValue{
+        color: var(--whitetext_color);
+        font-size: 9px;
+        font-family: "Paperlogy-6";
+    }
+    
+    
+    .iis__skill__desc, .iis__passive__desc, .iis__keyword__desc{
+        gap: 3px;
+    }
+    
+    
+    .iis__skill__desc__before, .iis__passive__desc__before, .iis__keyword__desc__before{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        gap: 9px;
+    }
+    
+    .iis__skill__desc__after{
+        gap: 5px;
+    }
+    
+    .iis__skill__desc__line, .iis__passive__desc__line, .iis__keyword__desc__line{
+        width: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+    
+    .iis__descText{
+        font-family: "Paperlogy-4";
+        font-size: 9px;
+    }
+    
+    .iis__skill__desc__withCoin{
+        align-items: top;
+        justify-content: left;
+        gap: 4px;
+    }
+    
+    .iis__skill__desc__coin{
+        width: 12px;
+        height: 12px;
+    }
+    
+    .iis__skill__desc__afterText{
+        position: relative;
+        top: 2.5px;
+    }
+    
+    .iis__keyword__img{
+        width: 16px;
+    }
 }
 
-.iis__uptie{
-    width: fit-content;
-    transition: all 0.3s ease;
+@media (min-width: 768px) and (max-width: 991px) {
+    .iis__main{
+        width: 80vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
 
-    font-size: larger;
-    font-family: "Paperlogy-6";
-    color: var(--whitetext_color);
+    .iis__uptie{
+        width: fit-content;
+        transition: all 0.3s ease;
+    
+        font-size: 16px;
+        font-family: "Paperlogy-6";
+        color: var(--whitetext_color);
+    
+        background-color: var(--frame_bg);
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+        outline: solid 1px var(--outline_color);
+    
+        cursor: pointer;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .iis__tabs{
+        width: 100%;
+        height: fit-content;
+        gap: 120px;
+    }
+    
+    
+    
+    .iis__skill__up, .iis__passive__up, .iis__keyword__up{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        padding: 10px 10px 10px 10px;
+        gap: 6px;
+    }
 
-    background-color: var(--frame_bg);
-    padding: 10px 20px 10px 20px;
-    border-radius: 5px;
-    outline: solid 1px var(--outline_color);
+    .iis__skill__up__under{
+        gap: 15px;
+    }
+    
+    .iis__skill__under, .iis__passive__under, .iis__keyword__under{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        padding: 10px 10px 10px 10px;
+        gap: 20px;
+    }
+    
+    
+    .iis__skills, .iis__passives, .iis__keywords{
+        width: 100%;
+        height: fit-content;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .iis__skill, .iis__passive, .iis__keyword{
+        width: 100%;
+        height: fit-content;
+    
+        background-color: var(--button_bg);
+        outline: 1px solid var(--outline_color);
+    
+        border-radius: 5px;
+    }
+    
+    .iis__skill__name, .iis__passive__name, .iis__keyword__name{
+        justify-content: center;
+    
+        color: var(--whitetext_color);
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+    
+        gap: 10px;
+    }
 
-    cursor: pointer;
+    .iis__passive__gap{
+        gap: 10px;
+    }
+    
+    .iis__skill__sin, .iis__passive__sin{
+        height: 20px;
+    }
+    
+    .iis__skill__type{
+        height: 20px;
+    }
+    
+    
+    .iis__skill__coin{
+        width: 16px;
+    }
+    
+    
+    .iis__skill__weights{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    .iis__skill__weightDivs{
+        gap: 2px;
+    }
+    
+    .iis__skill__weight{
+        width: 8px;
+        height: 8px;
+        background-color: var(--text_color);
+    }
+    
+    
+    .iis__skill__Lv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .iis__skill__LvIcon__Icon{
+        width: 16px;
+    }
+    
+    
+    .iis__skill__Power{
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .iis__skill__skillPower{
+        gap: 5px;
+    }
+    
+    .iis__skill__coinPower{
+        gap: 5px;
+    }
+
+    .iis__skill__weightText{
+        width: fit-content;
+        color: var(--text_color);
+        font-size: 12px;
+        font-family: "Paperlogy-6";
+    }
+
+    .iis__skill__LvText{
+        color: var(--text_color);
+        font-size: 12px;
+        font-family: "Paperlogy-6";
+    }
+    
+    .iis__skill__LvValue{
+        color: var(--whitetext_color);
+        font-size: 12px;
+        font-family: "Paperlogy-6";
+    }
+
+    .iis__skill__skillPowerText, .iis__skill__coinPowerText{
+        color: var(--text_color);
+        font-size: 12px;
+        font-family: "Paperlogy-6";
+    }
+    
+    .iis__skill__skillPowerValue, .iis__skill__coinPowerValue{
+        color: var(--whitetext_color);
+        font-size: 12px;
+        font-family: "Paperlogy-6";
+    }
+    
+    
+    .iis__skill__desc, .iis__passive__desc, .iis__keyword__desc{
+        gap: 5px;
+    }
+    
+    
+    .iis__skill__desc__before, .iis__passive__desc__before, .iis__keyword__desc__before{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        gap: 10px;
+    }
+    
+    .iis__skill__desc__after{
+        gap: 5px;
+    }
+    
+    .iis__skill__desc__line, .iis__passive__desc__line, .iis__keyword__desc__line{
+        width: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+    
+    .iis__descText{
+        font-family: "Paperlogy-4";
+        font-size: 12px;
+    }
+    
+    .iis__skill__desc__withCoin{
+        align-items: top;
+        justify-content: left;
+        gap: 4px;
+    }
+    
+    .iis__skill__desc__coin{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .iis__skill__desc__afterText{
+        position: relative;
+        top: 2.75px;
+    }
+    
+    .iis__keyword__img{
+        width: 24px;
+    }
 }
 
-.iis__uptie:hover{
+@media (min-width: 992px) and (max-width: 1199px) {
+    .iis__main{
+        width: 70vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .iis__uptie{
+        width: fit-content;
+        transition: all 0.3s ease;
+    
+        font-size: 20px;
+        font-family: "Paperlogy-6";
+        color: var(--whitetext_color);
+    
+        background-color: var(--frame_bg);
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+        outline: solid 1px var(--outline_color);
+    
+        cursor: pointer;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .iis__tabs{
+        width: 100%;
+        height: fit-content;
+        gap: 180px;
+    }
+    
+    
+    
+    .iis__skill__up, .iis__passive__up, .iis__keyword__up{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        padding: 10px 10px 10px 10px;
+        gap: 8px;
+    }
+
+    .iis__skill__up__under{
+        gap: 20px;
+    }
+    
+    .iis__skill__under, .iis__passive__under, .iis__keyword__under{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        padding: 10px 10px 10px 10px;
+        gap: 20px;
+    }
+    
+    
+    .iis__skills, .iis__passives, .iis__keywords{
+        width: 100%;
+        height: fit-content;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .iis__skill, .iis__passive, .iis__keyword{
+        width: 100%;
+        height: fit-content;
+    
+        background-color: var(--button_bg);
+        outline: 1px solid var(--outline_color);
+    
+        border-radius: 10px;
+    }
+    
+    .iis__skill__name, .iis__passive__name, .iis__keyword__name{
+        justify-content: center;
+    
+        color: var(--whitetext_color);
+        font-size: 22px;
+        font-family: "Paperlogy-6";
+    
+        gap: 10px;
+    }
+
+    .iis__passive__gap{
+        gap: 10px;
+    }
+    
+    .iis__skill__sin, .iis__passive__sin{
+        height: 24px;
+    }
+    
+    .iis__skill__type{
+        height: 24px;
+    }
+    
+    
+    .iis__skill__coin{
+        width: 18px;
+    }
+    
+    
+    .iis__skill__weights{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .iis__skill__weightDivs{
+        gap: 2px;
+    }
+    
+    .iis__skill__weight{
+        width: 10px;
+        height: 10px;
+        background-color: var(--text_color);
+    }
+    
+    
+    .iis__skill__Lv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .iis__skill__LvIcon__Icon{
+        width: 18px;
+    }
+    
+    
+    .iis__skill__Power{
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .iis__skill__skillPower{
+        gap: 5px;
+    }
+    
+    .iis__skill__coinPower{
+        gap: 5px;
+    }
+
+    .iis__skill__weightText{
+        width: fit-content;
+        color: var(--text_color);
+        font-size: 14px;
+        font-family: "Paperlogy-6";
+    }
+
+    .iis__skill__LvText{
+        color: var(--text_color);
+        font-size: 14px;
+        font-family: "Paperlogy-6";
+    }
+    
+    .iis__skill__LvValue{
+        color: var(--whitetext_color);
+        font-size: 14px;
+        font-family: "Paperlogy-6";
+    }
+
+    .iis__skill__skillPowerText, .iis__skill__coinPowerText{
+        color: var(--text_color);
+        font-size: 14px;
+        font-family: "Paperlogy-6";
+    }
+    
+    .iis__skill__skillPowerValue, .iis__skill__coinPowerValue{
+        color: var(--whitetext_color);
+        font-size: 14px;
+        font-family: "Paperlogy-6";
+    }
+    
+    
+    .iis__skill__desc, .iis__passive__desc, .iis__keyword__desc{
+        gap: 10px;
+    }
+    
+    
+    .iis__skill__desc__before, .iis__passive__desc__before, .iis__keyword__desc__before{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        gap: 10px;
+    }
+    
+    .iis__skill__desc__after{
+        gap: 10px;
+    }
+    
+    .iis__skill__desc__line, .iis__passive__desc__line, .iis__keyword__desc__line{
+        width: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+    
+    .iis__descText{
+        font-family: "Paperlogy-4";
+        font-size: 14px;
+    }
+    
+    .iis__skill__desc__withCoin{
+        align-items: top;
+        justify-content: left;
+        gap: 5px;
+    }
+    
+    .iis__skill__desc__coin{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .iis__skill__desc__afterText{
+        position: relative;
+        top: 3px;
+    }
+    
+    .iis__keyword__img{
+        width: 28px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .iis__main{
+        width: 60vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .iis__uptie{
+        width: fit-content;
+        transition: all 0.3s ease;
+    
+        font-size: larger;
+        font-family: "Paperlogy-6";
+        color: var(--whitetext_color);
+    
+        background-color: var(--frame_bg);
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+        outline: solid 1px var(--outline_color);
+    
+        cursor: pointer;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .iis__tabs{
+        width: 100%;
+        height: fit-content;
+        gap: 200px;
+    }
+    
+    
+    
+    .iis__skill__up, .iis__passive__up, .iis__keyword__up{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        padding: 10px 10px 10px 10px;
+        gap: 10px;
+    }
+
+    .iis__skill__up__under{
+        gap: 20px;
+    }
+    
+    .iis__skill__under, .iis__passive__under, .iis__keyword__under{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        padding: 10px 10px 10px 10px;
+        gap: 20px;
+    }
+    
+    
+    .iis__skills, .iis__passives, .iis__keywords{
+        width: 100%;
+        height: fit-content;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .iis__skill, .iis__passive, .iis__keyword{
+        width: 100%;
+        height: fit-content;
+    
+        background-color: var(--button_bg);
+        outline: 1px solid var(--outline_color);
+    
+        border-radius: 10px;
+    }
+    
+    .iis__skill__name, .iis__passive__name, .iis__keyword__name{
+        justify-content: center;
+    
+        color: var(--whitetext_color);
+        font-size: x-large;
+        font-family: "Paperlogy-6";
+    
+        gap: 10px;
+    }
+
+    .iis__passive__gap{
+        gap: 10px;
+    }
+    
+    .iis__skill__sin, .iis__passive__sin{
+        height: 32px;
+    }
+    
+    .iis__skill__type{
+        height: 32px;
+    }
+    
+    
+    .iis__skill__coin{
+        width: 24px;
+    }
+    
+    
+    .iis__skill__weights{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .iis__skill__weightDivs{
+        gap: 2px;
+    }
+    
+    .iis__skill__weight{
+        width: 12px;
+        height: 12px;
+        background-color: var(--text_color);
+    }
+    
+    
+    .iis__skill__Lv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .iis__skill__LvIcon__Icon{
+        width: 24px;
+    }
+    
+    
+    .iis__skill__Power{
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .iis__skill__skillPower{
+        gap: 5px;
+    }
+    
+    .iis__skill__coinPower{
+        gap: 5px;
+    }
+
+    .iis__skill__weightText{
+        width: fit-content;
+        color: var(--text_color);
+        font-size: 16px;
+        font-family: "Paperlogy-6";
+    }
+
+    .iis__skill__LvText{
+        color: var(--text_color);
+        font-size: 16px;
+        font-family: "Paperlogy-6";
+    }
+    
+    .iis__skill__LvValue{
+        color: var(--whitetext_color);
+        font-size: 16px;
+        font-family: "Paperlogy-6";
+    }
+
+    .iis__skill__skillPowerText, .iis__skill__coinPowerText{
+        color: var(--text_color);
+        font-size: 16px;
+        font-family: "Paperlogy-6";
+    }
+    
+    .iis__skill__skillPowerValue, .iis__skill__coinPowerValue{
+        color: var(--whitetext_color);
+        font-size: 16px;
+        font-family: "Paperlogy-6";
+    }
+    
+    
+    .iis__skill__desc, .iis__passive__desc, .iis__keyword__desc{
+        gap: 10px;
+    }
+    
+    
+    .iis__skill__desc__before, .iis__passive__desc__before, .iis__keyword__desc__before{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        gap: 10px;
+    }
+    
+    .iis__skill__desc__after{
+        gap: 10px;
+    }
+    
+    .iis__skill__desc__line, .iis__passive__desc__line, .iis__keyword__desc__line{
+        width: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+    
+    .iis__descText{
+        font-family: "Paperlogy-4";
+        font-size: 16px;
+    }
+    
+    .iis__skill__desc__withCoin{
+        align-items: top;
+        justify-content: left;
+        gap: 5px;
+    }
+    
+    .iis__skill__desc__coin{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .iis__skill__desc__afterText{
+        position: relative;
+        top: 4px;
+    }
+    
+    .iis__keyword__img{
+        width: 32px;
+    }
+}
+
+
+.iis__uptie:hover{ /**/
     background-color: var(--selected_bg);
 }
 
-
-.iis__tabs{
-    width: 100%;
-    height: fit-content;
-    gap: 200px;
-}
-
-
-
-.iis__skill__up, .iis__passive__up, .iis__keyword__up{
-    height: 5vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    padding: 0px 10px 0px 10px;
-    gap: 20px;
-}
-
-.iis__skill__under, .iis__passive__under, .iis__keyword__under{
-    height: fit-content;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    padding: 20px 10px 20px 10px;
-    gap: 20px;
-}
-
-
-.iis__skills, .iis__passives, .iis__keywords{
-    width: 100%;
-    height: fit-content;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.iis__skill, .iis__passive, .iis__keyword{
-    width: 100%;
-    height: fit-content;
-
-    background-color: var(--button_bg);
-    outline: 1px solid var(--outline_color);
-
-    border-radius: 10px;
-}
-
-.iis__skill__name, .iis__passive__name, .iis__keyword__name{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    color: var(--whitetext_color);
-    font-size: x-large;
-    font-family: "Paperlogy-6";
-
-    gap: 10px;
-}
-
-.iis__skill__sin, .iis__passive__sin{
-    width: 1.5vw;
-}
-
-.iis__skill__type{
-    width: 2vw;
-}
-
-
-.iis__skill__coin{
-    width: 1.5vw;
-}
-
-
-.iis__skill__weights{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-}
-
-.iis__skill__weightText{
-    width: fit-content;
-    color: var(--text_color);
-    font-size: larger;
-    font-family: "Paperlogy-6";
-}
-
-.iis__skill__weight{
-    width: 1vw;
-    height: 1vw;
-    background-color: var(--text_color);
-}
-
-
-.iis__skill__Lv{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-
-.iis__skill__LvText{
-    color: var(--text_color);
-    font-size: larger;
-    font-family: "Paperlogy-6";
-}
-
-.iis__skill__LvIcon__Icon{
-    width: 1.5vw;
-    height: 1.5vw;
-}
-
-.iis__skill__LvValue{
-    color: var(--whitetext_color);
-    font-size: larger;
-    font-family: "Paperlogy-6";
-}
-
-
-.iis__skill__Power{
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.iis__skill__skillPower{
-    gap: 5px;
-}
-
-.iis__skill__coinPower{
-    gap: 5px;
-}
-
-.iis__skill__skillPowerText{
-    color: var(--text_color);
-    font-size: larger;
-    font-family: "Paperlogy-6";
-}
-
-.iis__skill__coinPowerText{
-    color: var(--text_color);
-    font-size: larger;
-    font-family: "Paperlogy-6";
-}
-
-.iis__skill__skillPowerValue{
-    color: var(--whitetext_color);
-    font-size: larger;
-    font-family: "Paperlogy-6";
-}
-
-.iis__skill__coinPowerValue{
-    color: var(--whitetext_color);
-    font-size: larger;
-    font-family: "Paperlogy-6";
-}
-
-
-.iis__skill__desc, .iis__passive__desc, .iis__keyword__desc{
-    gap: 20px;
-}
-
-
-.iis__skill__desc__before, .iis__passive__desc__before, .iis__keyword__desc__before{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: left;
-    gap: 10px;
-}
-
-.iis__skill__desc__after{
-    gap: 10px;
-}
-
-.iis__skill__desc__line, .iis__passive__desc__line, .iis__keyword__desc__line{
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 3px;
-}
-
-.iis__descText{
-    font-family: "Paperlogy-4";
-    font-size: medium;
-}
-
-.iis__descText__when{
+.iis__descText__when{ /**/
     color: var(--whentext_color);
 }
 
-.iis__descText__keyword{
+.iis__descText__keyword{ /**/
     color: var(--keywordtext_color);
 }
 
-.iis__descText__text{
+.iis__descText__text{ /**/
     color: var(--whitetext_color);
 }
 
-.iis__skill__desc__withCoin{
-    align-items: top;
-    justify-content: left;
-    gap: 5px;
-}
-
-.iis__skill__desc__coin{
-    width: 20px;
-    height: 20px;
+.iis__skill__coins{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .iis__skill__desc__afterText{
-    position: relative;
-    top: 2px;
+    gap: 4px;
 }
 
-.iis__keyword__img{
-    width: 2vw;
+.iis__skill__name{
+    align-items: center;
 }

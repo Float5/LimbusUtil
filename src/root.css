@@ -121,14 +121,53 @@ body{
     overflow-x: hidden;
 }
 
-main{
-    width: 60vw;
-    height: 100%;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 20vw;
-    padding-right: 20vw;
-    background-color: var(--background_bg);
+
+@media (max-width: 767px){
+	main{
+        width: 90vw;
+        height: 100%;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        background-color: var(--background_bg);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    main{
+        width: 80vw;
+        height: 100%;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        background-color: var(--background_bg);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    main{
+        width: 70vw;
+        height: 100%;
+        padding-top: 8vh;
+        padding-bottom: 10vh;
+        padding-left: 15vw;
+        padding-right: 15vw;
+        background-color: var(--background_bg);
+    }
+}
+
+@media (min-width: 1200px) {
+    main{
+        width: 60vw;
+        height: 100%;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        background-color: var(--background_bg);
+    }
 }
 
 

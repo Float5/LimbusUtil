@@ -47,11 +47,13 @@ const makeSkillInfoHTML = (SkillInfo: any)=>{
     return (
         <div className="iis__skill">
             <div className="iis__skill__up">
-                {makeSkillNameHTML(SkillInfo)}
-                {makeCoinsHTML(SkillInfo.coins)}
-                {makeWeightsHTML(SkillInfo.weight)}
-                {makeLvHTML(SkillInfo.Lv, SkillInfo.type)}
-                {makePowerHTML(SkillInfo.skillPower, SkillInfo.coinPower)}
+                <div className='flex-row'>{makeSkillNameHTML(SkillInfo)}</div>
+                <div className='flex-row iis__skill__up__under'>
+                    {makeCoinsHTML(SkillInfo.coins)}
+                    {makeWeightsHTML(SkillInfo.weight)}
+                    {makeLvHTML(SkillInfo.Lv, SkillInfo.type)}
+                    {makePowerHTML(SkillInfo.skillPower, SkillInfo.coinPower)}
+                </div>
             </div>
             <div className="iis__skill__under">
                 {makeSkillDescriptionHTML(SkillInfo.description)}
@@ -64,7 +66,9 @@ const makePassiveInfoHTML = (PassiveInfo: any)=>{
     return (
         <div className="iis__passive">
             <div className="iis__passive__up">
-                {makePassiveNameHTML(PassiveInfo)}
+                <div className='flex-row iis__passive__up__under'>
+                    {makePassiveNameHTML(PassiveInfo)}
+                </div>
             </div>
             <div className="iis__passive__under">
                 {makePassiveDescriptionHTML(PassiveInfo.description)}
@@ -77,7 +81,9 @@ const makeKeywordInfoHTML = (KeywordInfo: any)=>{
     return (
         <div className="iis__keyword">
             <div className="iis__keyword__up">
-                {makeKeywordNameHTML(KeywordInfo)}
+                <div className="flex-row iis__keyword__up__under">
+                    {makeKeywordNameHTML(KeywordInfo)}
+                </div>
             </div>
             <div className="iis__keyword__under">
                 {makeKeywordDescriptionHTML(KeywordInfo)}
@@ -88,24 +94,28 @@ const makeKeywordInfoHTML = (KeywordInfo: any)=>{
 
 const makeSkillNameHTML = (SkillInfo: any)=>{
     return (
-        <div className="iis__skill__name">
-            {(SkillInfo.sin == "none" ? "" : <img src={`/img/icon/sin/${SkillInfo.sin}.webp`} className={`iis__skill__sin iis__skill__${SkillInfo.sin}`} />)}
+        <div className="iis__skill__name flex-row">
+            {(SkillInfo.sin == "none" ? "" : <img src={`/LimbusUtil/img/icon/sin/${SkillInfo.sin}.webp`} className={`iis__skill__sin iis__skill__${SkillInfo.sin}`} />)}
             <div className={`${SkillInfo.sin}-color`}>{SkillInfo.skill}</div>
             <div>{SkillInfo.skillName}</div>
-            {(SkillInfo.type == "none" ? "" : <img src={`/img/icon/${SkillInfo.type}.webp`} className={`iis__skill__type iis__skill__${SkillInfo.type}`} />)}
+            {(SkillInfo.type == "none" ? "" : <img src={`/LimbusUtil/img/icon/${SkillInfo.type}.webp`} className={`iis__skill__type iis__skill__${SkillInfo.type}`} />)}
         </div>
     )
 }
 
 const makePassiveNameHTML = (PassiveInfo: any)=>{
     return (
-        <div className="iis__passive__name">
-            <div className={`${PassiveInfo.sin}-color`}>{PassiveInfo.skill}</div>
-            <div>{PassiveInfo.skillName}</div>
-            {(PassiveInfo.sin == "none" ? "" : <img src={`/img/icon/sin/${PassiveInfo.sin}.webp`} className={`iis__passive__sin iis__passive__${PassiveInfo.sin}`} />)}
-            <div>{(PassiveInfo.sin == "none" ? "" : "X")}</div>
-            <div>{(PassiveInfo.sin == "none" ? "" : PassiveInfo.count)}</div>
-            <div>{(PassiveInfo.sin == "none" ? "" : PassiveInfo.type)}</div>
+        <div className="iis__passive__name flex-column">
+            <div className='flex-row iis__passive__gap'>
+                <div className={`${PassiveInfo.sin}-color`}>{PassiveInfo.skill}</div>
+                <div>{PassiveInfo.skillName}</div>
+            </div>
+            <div className='flex-row iis__passive__gap'>
+                {(PassiveInfo.sin == "none" ? "" : <img src={`/LimbusUtil/img/icon/sin/${PassiveInfo.sin}.webp`} className={`iis__passive__sin iis__passive__${PassiveInfo.sin}`} />)}
+                <div>{(PassiveInfo.sin == "none" ? "" : "X")}</div>
+                <div>{(PassiveInfo.sin == "none" ? "" : PassiveInfo.count)}</div>
+                <div>{(PassiveInfo.sin == "none" ? "" : PassiveInfo.type)}</div>
+            </div>
         </div>
     )
 }
@@ -113,8 +123,8 @@ const makePassiveNameHTML = (PassiveInfo: any)=>{
 const makeKeywordNameHTML = (KeywordInfo: any)=>{
     const keywordsKrToEngJson: Record<string, any> = KeywordsKrToEngJson;
     return (
-        <div className="iis__keyword__name">
-            <img src={`/img/icon/keyword/${keywordsKrToEngJson[KeywordInfo]}.webp`} className="iis__keyword__img" />
+        <div className="iis__keyword__name flex-row">
+            <img src={`/LimbusUtil/img/icon/keyword/${keywordsKrToEngJson[KeywordInfo]}.webp`} className="iis__keyword__img" />
             <div>{KeywordInfo}</div>
         </div>
     )
@@ -124,7 +134,7 @@ const makeCoinsHTML = (coins: any)=>{
     return (
         <div className="iis__skill__coins">
             {coins.map((v: boolean)=>(
-                (v ? <img src="/img/icon/coin.webp" className="iis__skill__coin" /> : <img src="/img/icon/redcoin.webp" className="iis__skill__coin" />)
+                (v ? <img src="/LimbusUtil/img/icon/coin.webp" className="iis__skill__coin" /> : <img src="/LimbusUtil/img/icon/redcoin.webp" className="iis__skill__coin" />)
             ))}
         </div>
     )
@@ -136,9 +146,11 @@ const makeWeightsHTML = (weight: any)=>{
             <div className="iis__skill__weightText">
                 가중치
             </div>
-            {Array.from({ length: weight }, (_, i) => (
-                <div className="iis__skill__weight"></div>
-            ))}
+            <div className='flex-row iis__skill__weightDivs'>
+                {Array.from({ length: weight }, (_, i) => (
+                    <div className="iis__skill__weight"></div>
+                ))}
+            </div>
         </div>
     )
 }
@@ -150,7 +162,7 @@ const makeLvHTML = (Lv: any, type: any)=>{
                 {(type == "none" ? "방어 레벨" : "공격 레벨")}
             </div>
             <div className="iis__skill__LvIcon">
-                {(type == "none" ? <img src="/img/icon/adLevel/defense.webp" className="iis__skill__LvIcon__Icon" /> : <img src="/img/icon/adLevel/attack.webp" className="iis__skill__LvIcon__Icon" />)}
+                {(type == "none" ? <img src="/LimbusUtil/img/icon/adLevel/defense.webp" className="iis__skill__LvIcon__Icon" /> : <img src="/LimbusUtil/img/icon/adLevel/attack.webp" className="iis__skill__LvIcon__Icon" />)}
             </div>
             <div className="iis__skill__LvValue">
                 {`${Lv}(${Lv > 50 ? "+" : ""}${Lv-50})`}
@@ -218,7 +230,7 @@ const makeSkillDescriptionHTML = (skillDescription: any)=>{
                     }
                     return (
                         <div className="iis__skill__desc__withCoin flex-row">
-                            <img src={`/img/icon/coinnumber/${i+1}.webp`} className="iis__skill__desc__coin" />
+                            <img src={`/LimbusUtil/img/icon/coinnumber/${i+1}.webp`} className="iis__skill__desc__coin" />
                             <div className="iis__skill__desc__afterText flex-column">
                                 {v1.map((v2)=>{
                                     return (
