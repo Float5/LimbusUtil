@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/LimbusUtil/static/css/main.2e1ca766.css",
-    "main.js": "/LimbusUtil/static/js/main.628daa22.js",
+    "main.js": "/LimbusUtil/static/js/main.aee08af1.js",
     "static/media/Paperlogy-1Thin.ttf": "/LimbusUtil/static/media/Paperlogy-1Thin.ee313abc31e0d9ea22db.ttf",
     "static/media/Paperlogy-4Regular.ttf": "/LimbusUtil/static/media/Paperlogy-4Regular.3f9b448bfc4e1c72585f.ttf",
     "static/media/Paperlogy-6SemiBold.ttf": "/LimbusUtil/static/media/Paperlogy-6SemiBold.ccae5d3b3bb3e0b60c45.ttf",
     "static/media/Paperlogy-9Black.ttf": "/LimbusUtil/static/media/Paperlogy-9Black.619ffedf0bf3a9677fb8.ttf",
     "index.html": "/LimbusUtil/index.html",
     "main.2e1ca766.css.map": "/LimbusUtil/static/css/main.2e1ca766.css.map",
-    "main.628daa22.js.map": "/LimbusUtil/static/js/main.628daa22.js.map"
+    "main.aee08af1.js.map": "/LimbusUtil/static/js/main.aee08af1.js.map"
   },
   "entrypoints": [
     "static/css/main.2e1ca766.css",
-    "static/js/main.628daa22.js"
+    "static/js/main.aee08af1.js"
   ]
 }
